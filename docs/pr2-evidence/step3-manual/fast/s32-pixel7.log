@@ -1,0 +1,51 @@
+  [PASS] data pt: lib/languages.json has «Português» (htmlLang pt) 
+  [PASS] data pt: data/book.pt.json exists 
+  [PASS] data pt: every chapter of the English book, same order (21) 
+  [PASS] data pt: book title/parts translated 
+  [PASS] data pt: every Sanskrit (IAST) field byte-identical to EN (271) 
+  [PASS] data pt: Sanskrit fields = RU-IAST (271) 
+  [PASS] data pt: no empty text where English has text 
+  [PASS] data pt: no English prose copied untranslated 
+  [PASS] data pt: English sentences left ≤ 0.5 % of 1270 text fields (found 1) 
+  [PASS] data pt: Gurudev's quotes (48) present with a translation 
+  [PASS] data pt: ui.pt.json has every key of ui.en.json (77) 
+  [PASS] data pt: UI strings translated (identical to English ≤ 3) 
+  [PASS] data pt: public/sw.js LANG_CODES has 'pt' 
+  [PASS] data pt: scripts/build-precache.mjs LANG_DIRS has "pt" 
+  [PASS] data pt: out/pt/<chapter>/index.html for all 21 chapters 
+  [PASS] data pt: search index public/search-index.pt.json 
+  [PASS] data pt: precache manifest has /pt/ pages 
+  [PASS] data lt: lib/languages.json has «Lietuvių» (htmlLang lt) 
+  [PASS] data lt: data/book.lt.json exists 
+  [PASS] data lt: every chapter of the English book, same order (21) 
+  [PASS] data lt: book title/parts translated 
+  [PASS] data lt: every Sanskrit (IAST) field byte-identical to EN (271) 
+  [PASS] data lt: Sanskrit fields = RU-IAST (271) 
+  [PASS] data lt: no empty text where English has text 
+  [PASS] data lt: no English prose copied untranslated 
+  [PASS] data lt: English sentences left ≤ 0.5 % of 1270 text fields (found 0) 
+  [PASS] data lt: Gurudev's quotes (48) present with a translation 
+  [PASS] data lt: ui.lt.json has every key of ui.en.json (77) 
+  [PASS] data lt: UI strings translated (identical to English ≤ 3) 
+  [PASS] data lt: public/sw.js LANG_CODES has 'lt' 
+  [PASS] data lt: scripts/build-precache.mjs LANG_DIRS has "lt" 
+  [PASS] data lt: out/lt/<chapter>/index.html for all 21 chapters 
+  [PASS] data lt: search index public/search-index.lt.json 
+  [PASS] data lt: precache manifest has /lt/ pages 
+  [PASS] pixel7 pt: /pt/ opens 
+  [PASS] pixel7 pt: <html lang> = pt 
+  [PASS] pixel7 pt/introduction: heading + text not empty 
+  [PASS] pixel7 pt/worship-sixteen-articles: heading + text not empty 
+  [PASS] pixel7 pt/mangala-arati-songs: heading + text not empty 
+  [PASS] pixel7 pt: «Аа» language menu has Português and Lietuvių (own names, not «(EN)») 
+  [PASS] pixel7 pt: language menu shows pt as the current language 
+  [PASS] pixel7 lt: /lt/ opens 
+  [PASS] pixel7 lt: <html lang> = lt 
+  [PASS] pixel7 lt/introduction: heading + text not empty 
+  [PASS] pixel7 lt/worship-sixteen-articles: heading + text not empty 
+  [PASS] pixel7 lt/mangala-arati-songs: heading + text not empty 
+  [PASS] pixel7 lt: «Аа» language menu has Português and Lietuvių (own names, not «(EN)») 
+  [PASS] pixel7 lt: language menu shows lt as the current language 
+  [PASS] pixel7 no page errors 
+
+49/49 passed

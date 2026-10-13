@@ -1,0 +1,47 @@
+== pixel7 default
+  [PASS] pixel7 3 contents: Обложка → Гуру-парампара → Мангалачарана → ВВЕДЕНИЕ [toc=default] ['Обложка', 'Гуру-парампара', 'Мангалачарана', 'ВВЕДЕНИЕ']
+  [PASS] pixel7 1/2 Вперёд on screen and on top with menu open [toc=default] {'x': 312, 'y': 865, 'width': 88, 'height': 44}
+  [PASS] pixel7 3 Мангалачарана: title only, no headings, ornaments, 30 verses all with пословно [toc=default] ('Мангалачарана', 0, False, 20, 30, 30)
+  [PASS] pixel7 6d «Молитва Шри Радхе-Говинде» gone [toc=default] 
+  [PASS] pixel7 3 «След. глава ›» after Мангалачарана = Введение [toc=default] След. глава › Введение
+  [PASS] pixel7 8 all verse panels closed on open [toc=default] 
+  [PASS] pixel7 8 chip opens its own panel [toc=default] 
+  [PASS] pixel7 6a no ⟦⟧ on screen, āmiṣa translated [toc=default] 
+  [PASS] pixel7 9 status one line when it fits, wraps intact when needed (daily-deity-schedule) [toc=default] {'t': 'Храмовый стандарт: Глава 2.11 · 34\xa0%', 'h': 35, 'sw': 196, 'cw': 196, 'natural': 244.984375, 'sh': 35, 'ch': 35}
+  [PASS] pixel7 9 status one line when it fits, wraps intact when needed (vigraha-tattva) [toc=default] {'t': 'Виграха-таттва 8 · 21\xa0%', 'h': 18, 'sw': 196, 'cw': 196, 'natural': 151, 'sh': 18, 'ch': 18}
+  [PASS] pixel7 9 status one line when it fits, wraps intact when needed (gaudiya-emblem) [toc=default] {'t': 'Эмблема Гаудия-матха 9 · 14\xa0%', 'h': 35, 'sw': 196, 'cw': 196, 'natural': 203.453125, 'sh': 35, 'ch': 35}
+  [PASS] pixel7 10 Sanskrit breaks only at space/hyphen (mangalacarana) [toc=default] []
+  [PASS] pixel7 10 Sanskrit breaks only at space/hyphen (daily-deity-schedule) [toc=default] []
+  [PASS] pixel7 10 Sanskrit breaks only at space/hyphen (offering-bhoga) [toc=default] []
+  [PASS] pixel7 11 heading at top after 3 s (all subsections, direct load) [toc=default] []
+  [PASS] pixel7 5 no old page between menu and target [toc=default] ([], 'target after ~0 ms')
+  [PASS] pixel7 11 contents → «Святое имя» heading at top [toc=default] ('emblem-centre', 24)
+  [PASS] pixel7 13 picture part tap (scroll to row) does not open the menu (Tilak) [toc=default] []
+  [PASS] pixel7 19 tap on the empty corner of the emblem toggles the menu [toc=default] 
+  [PASS] pixel7 14 emblem shows numbers 1, 2.1–2.6, 10–12 [toc=default] ['1', '10', '11', '12', '2.1', '2.2', '2.3', '2.4', '2.5', '2.6']
+  [PASS] pixel7 18 Tilak (12) + ācamana short mantras shown WITHOUT «пословно» (v7.8) [toc=default] (0, 0, 13, 27)
+  [PASS] pixel7 17 Back mirrors the forward steps, no repeated step [toc=default] []
+  [PASS] pixel7 17 Back counts exactly the mode actions [toc=default] 4
+  [PASS] pixel7 17 Forward mirrors every URL and open list, marking the reading place [toc=default] []
+  [PASS] pixel7 history: Contents opens one entry [toc=default] 
+  [PASS] pixel7 history: group tap marks the place being read [toc=default] {'url': '/arcana-paddhati/ru-iast/', 'menu': True, 'lit': ['cover'], 'open': ['temple-worship'], 'history': 4, 'pushes': 2}
+  [PASS] pixel7 history: group first tap has exactly one action entry [toc=default] {'url': '/arcana-paddhati/ru-iast/', 'menu': True, 'lit': ['cover'], 'open': ['temple-worship'], 'history': 4, 'pushes': 2}
+  [PASS] pixel7 history: group first tap expands by mode [toc=default] {'url': '/arcana-paddhati/ru-iast/', 'menu': True, 'lit': ['cover'], 'open': ['temple-worship'], 'history': 4, 'pushes': 2}
+  [PASS] pixel7 history: chapter tap marks the place being read [toc=default] {'url': '/arcana-paddhati/ru-iast/arcana-procedure/', 'menu': True, 'lit': ['sec:arcana-procedure'], 'open': ['arcana-procedure', 'temple-worship'], 'history': 5, 'pushes': 3}
+  [PASS] pixel7 history: chapter first tap has exactly one action entry [toc=default] {'url': '/arcana-paddhati/ru-iast/arcana-procedure/', 'menu': True, 'lit': ['sec:arcana-procedure'], 'open': ['arcana-procedure', 'temple-worship'], 'history': 5, 'pushes': 3}
+  [PASS] pixel7 history: chapter first tap expands by mode [toc=default] {'url': '/arcana-paddhati/ru-iast/arcana-procedure/', 'menu': True, 'lit': ['sec:arcana-procedure'], 'open': ['arcana-procedure', 'temple-worship'], 'history': 5, 'pushes': 3}
+  [PASS] pixel7 history: chapter first tap opens its top, never a subsection [toc=default] {'url': '/arcana-paddhati/ru-iast/arcana-procedure/', 'menu': True, 'lit': ['sec:arcana-procedure'], 'open': ['arcana-procedure', 'temple-worship'], 'history': 5, 'pushes': 3}
+  [PASS] pixel7 history: subsection list visible without an extra tap [toc=default] 
+  [PASS] pixel7 history: subsection opens in one navigation entry [toc=default] {'url': '/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata', 'menu': False, 'lit': [], 'open': [], 'history': 6, 'pushes': 4}
+  [PASS] pixel7 history: cover to subsection action count [toc=default] 4
+  [PASS] pixel7 history: Back restores every URL and open list, marking the place [toc=default] []
+  [PASS] pixel7 history: Back presses from subsection to cover [toc=default] 4
+  [PASS] pixel7 history: Forward restores every URL and open list, marking the place [toc=default] []
+  [PASS] pixel7 history: Forward presses from cover to subsection [toc=default] 4
+  [PASS] pixel7 history: second chapter tap collapses without navigating [toc=default] {'url': '/arcana-paddhati/ru-iast/arcana-procedure/', 'menu': True, 'lit': ['sec:arcana-procedure'], 'open': ['temple-worship'], 'history': 6, 'pushes': 5}
+  [PASS] pixel7 history: every pushState has a user gesture [toc=default] 
+  [PASS] pixel7 history: collapse pushes only its action entry [toc=default] {'url': '/arcana-paddhati/ru-iast/arcana-procedure/', 'menu': True, 'lit': ['sec:arcana-procedure'], 'open': ['temple-worship'], 'history': 6, 'pushes': 5}
+  [PASS] pixel7 history: Back restores the collapsed chapter list [toc=default] {'url': '/arcana-paddhati/ru-iast/arcana-procedure/', 'menu': True, 'lit': ['sec:arcana-procedure'], 'open': ['arcana-procedure', 'temple-worship'], 'history': 6, 'pushes': 5}
+  [PASS] pixel7 no page errors [toc=default] []
+
+44/44 passed

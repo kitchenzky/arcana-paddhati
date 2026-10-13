@@ -1,0 +1,11 @@
+  [FAIL] iphone14 old /ru/<chapter>/ -> /ru-iast/<chapter>/ (hash kept) http://127.0.0.1:64166/arcana-paddhati/ru-iast/offering-bhoga/#x
+  [PASS] iphone14 old /ru/ home -> /ru-iast/ 
+  [PASS] iphone14 saved 'ru' migrated to 'ru-iast', start page opens it 
+  [PASS] iphone14 contents panel has NO language menu (v7.8: only in «Аа») 
+  [PASS] iphone14 Аа language menu: one Russian «Русский» 
+  [PASS] iphone14 Russian search loads search-index.ru-iast.json, has results 
+  [PASS] iphone14 no links to Cyrillic-Russian pages / files in UI 
+  [PASS] iphone14 no page errors 
+
+7/8 passed
+FAILED: ('iphone14', 'old /ru/<chapter>/ -> /ru-iast/<chapter>/ (hash kept)', False, 'http://127.0.0.1:64166/arcana-paddhati/ru-iast/offering-bhoga/#x')

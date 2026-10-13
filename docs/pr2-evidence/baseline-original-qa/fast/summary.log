@@ -1,0 +1,185 @@
+QA fast: 55 darbi, 6 paralēli, serveris http://127.0.0.1:59926/arcana-paddhati (out/)
+  OK   s07    pixel7                         75 pass   0 fail      82s
+  OK   s23    pixel7                         35 pass   0 fail      96s
+  OK   s23    iphone14                       35 pass   0 fail     127s
+  OK   s07    iphone14                       68 pass   0 fail     139s
+  OK   s23    desktop                        35 pass   0 fail     104s
+  OK   s23    ipad-portrait                  35 pass   0 fail     125s
+  OK   s071   pixel7                         44 pass   0 fail     209s
+  OK   s071   iphone14                       44 pass   0 fail     223s
+  OK   s24    pixel7                         24 pass   0 fail     112s
+  FAIL s01    iphone14                       59 pass   1 fail      90s
+  OK   s24    iphone14                       24 pass   0 fail     108s
+  OK   s24    ipad-portrait                  24 pass   0 fail     104s
+  FAIL s01    pixel7                         59 pass   1 fail      93s
+  OK   s06    iphone14                      102 pass   0 fail      86s
+  OK   s04    pixel7                         51 pass   0 fail      32s
+  OK   s03    pixel7                         53 pass   0 fail      43s
+  OK   s03    iphone14                       52 pass   0 fail      46s
+  OK   lint   -                              29 pass   0 fail       4s
+  OK   s24    desktop                        24 pass   0 fail     240s
+  OK   s06    pixel7                        102 pass   0 fail      72s
+  OK   s05    pixel7                         30 pass   0 fail      21s
+  OK   s04    iphone14                       51 pass   0 fail      35s
+  OK   s05    iphone14                       30 pass   0 fail      26s
+  FAIL s00    iphone14                        7 pass   1 fail      13s
+  FAIL s00    pixel7                          7 pass   1 fail      12s
+  OK   s12    pixel7                          2 pass   0 fail       9s
+  OK   s02    pixel7                          9 pass   0 fail      11s
+  OK   s02    iphone14                        9 pass   0 fail      13s
+  OK   s12    iphone14                        2 pass   0 fail      10s
+  OK   s13    pixel7                         18 pass   0 fail      11s
+  OK   s13    iphone14                       18 pass   0 fail      13s
+  OK   s14    iphone14                        4 pass   0 fail      14s
+  OK   s22    pixel7                         15 pass   0 fail      16s
+  OK   s22    iphone14                       15 pass   0 fail      17s
+  OK   s14    pixel7                          5 pass   0 fail      20s
+  OK   s25    pixel7                         39 pass   0 fail      43s
+  OK   s25    iphone14                       39 pass   0 fail      47s
+  FAIL s27    -                               0 pass   1 fail       0s
+  FAIL s28    -                               1 pass   1 fail       0s
+  FAIL s29    -                               5 pass   1 fail       0s
+  OK   s25    desktop                        39 pass   0 fail      45s
+  OK   s25    ipad-portrait                  39 pass   0 fail      49s
+  OK   s30    pixel7                         37 pass   0 fail      23s
+  OK   s30    iphone14                       37 pass   0 fail      24s
+  OK   s30    desktop                        37 pass   0 fail      22s
+  OK   s32    pixel7                         49 pass   0 fail      10s
+  OK   s32    desktop                        49 pass   0 fail      11s
+  FAIL s37    iphone14                       18 pass   6 fail      67s
+  OK   s26    ipad-portrait                  19 pass   0 fail     119s
+  OK   s20    -                               3 pass   0 fail       7s
+  OK   s35    pixel7                         35 pass   0 fail      97s
+  OK   s35    iphone14                       35 pass   0 fail     102s
+  FAIL s26    pixel7                         37 pass   1 fail     189s
+  FAIL s26    iphone14                       33 pass   1 fail     190s
+  FAIL s37    pixel7                         19 pass   5 fail      61s
+  atkārtoju 11 kritušos darbus vienu reizi …
+  FAIL s27    -                            (atkārtoti)   1 fail
+  FAIL s28    -                            (atkārtoti)   1 fail
+  FAIL s29    -                            (atkārtoti)   1 fail
+  FAIL s00    pixel7                       (atkārtoti)   1 fail
+  FAIL s00    iphone14                     (atkārtoti)   1 fail
+  FAIL s37    iphone14                     (atkārtoti)   6 fail
+  FAIL s37    pixel7                       (atkārtoti)   5 fail
+  FAIL s01    pixel7                       (atkārtoti)   1 fail
+  FAIL s01    iphone14                     (atkārtoti)   1 fail
+  FAIL s26    pixel7                       (atkārtoti)   1 fail
+  FAIL s26    iphone14                     (atkārtoti)   1 fail
+
+QA fast: 1766 pass, 20 fail, 90 skip, 13.3 min
+  SKIP s04 pixel7 (a) extra predecessor between chapter opening and Contents [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and the three Back actions assert the complete path.
+  SKIP s04 pixel7 (a) extra predecessor before Contents as opened [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and the three Back actions assert the complete path.
+  SKIP s03 pixel7 (b) extra predecessor before the subsection jump [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 pixel7 (b) extra predecessor between chapter opening and group action [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 pixel7 (b) extra predecessor between group toggle and Contents opening [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 pixel7 (b) extra predecessor before Contents as opened [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 iphone14 (b) extra predecessor before the subsection jump [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 iphone14 (b) extra predecessor between chapter opening and group action [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 iphone14 (b) extra predecessor between group toggle and Contents opening [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 iphone14 (b) extra predecessor before Contents as opened [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s04 iphone14 (a) extra predecessor between chapter opening and Contents [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and the three Back actions assert the complete path.
+  SKIP s04 iphone14 (a) extra predecessor before Contents as opened [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and the three Back actions assert the complete path.
+  SKIP s30 pixel7 1 at once (≤100 ms) after the 2nd tap: loading bar at the top [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 1 at once (≤100 ms) after the 2nd tap: the tapped row says «загружается…» [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 setup: the network delay really intercepted the page data (counter > 0) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 G a11y: «загружается» in a live region (role=status) outside aria-busy, ≤100 ms, present before the tap [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 2 repeated taps while loading: loading signs stay (navigation not restarted / not broken) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 B 9.5 s into a 12 s load: still the contents with the loading signs (not the old page) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 B 3 slow load: the old page never flashed; contents closed together with the new page [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 C repeated tap after 8 s: the loading signs stay (nothing restarted, menu not unlocked) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 C repeated tap after 8 s: no second navigation (no new page-data request, page came with the 1st load) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 C repeated tap after 8 s: history +1 only, final URL = the tapped (last) target [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 C 3 the old page never flashed [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 F «Назад» while loading: loading signs cleared at once, the step before (contents) shown [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 F «Назад» while loading: the cancelled page never opens later (URL, history unchanged) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 F 3 no flash of the old page after «Назад» (contents stay) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 F2 fast «Назад»→«Вперёд» while loading: contents (the highlighted step), no loading signs, nothing busy [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 F2 the cancelled page never opens later (URL, history unchanged) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 C2 setup: a second contents row linking to another page [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 C2 another row after 8 s: history +1 only, the LAST choice opened and stays (the replaced load never lands) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 C2 3 the old page never flashed [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 C2 «Назад» from it: the contents on the page before [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 D page data failed: the loading state is cleared (page opened another way, or menu not busy) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 D2 setup: page data and document aborted — the loading signs are shown first [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 D2 page data + page load failed: after 25 s the loading state is cleared (no bar, no row sign, nothing busy) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 D2 the row says «не удалось загрузить — коснитесь ещё раз» (and the live region) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 F3 «Вперёд» while loading: the forward page shown, contents closed, no loading signs, nothing busy [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 pixel7 F3 the pending load adds no history entry later and nothing reopens [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 1 at once (≤100 ms) after the 2nd tap: loading bar at the top [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 1 at once (≤100 ms) after the 2nd tap: the tapped row says «загружается…» [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 setup: the network delay really intercepted the page data (counter > 0) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 G a11y: «загружается» in a live region (role=status) outside aria-busy, ≤100 ms, present before the tap [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 2 repeated taps while loading: loading signs stay (navigation not restarted / not broken) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 B 9.5 s into a 12 s load: still the contents with the loading signs (not the old page) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 B 3 slow load: the old page never flashed; contents closed together with the new page [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 C repeated tap after 8 s: the loading signs stay (nothing restarted, menu not unlocked) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 C repeated tap after 8 s: no second navigation (no new page-data request, page came with the 1st load) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 C repeated tap after 8 s: history +1 only, final URL = the tapped (last) target [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 C 3 the old page never flashed [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 F «Назад» while loading: loading signs cleared at once, the step before (contents) shown [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 F «Назад» while loading: the cancelled page never opens later (URL, history unchanged) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 F 3 no flash of the old page after «Назад» (contents stay) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 F2 fast «Назад»→«Вперёд» while loading: contents (the highlighted step), no loading signs, nothing busy [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 F2 the cancelled page never opens later (URL, history unchanged) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 C2 setup: a second contents row linking to another page [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 C2 another row after 8 s: history +1 only, the LAST choice opened and stays (the replaced load never lands) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 C2 3 the old page never flashed [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 C2 «Назад» from it: the contents on the page before [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 D page data failed: the loading state is cleared (page opened another way, or menu not busy) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 D2 setup: page data and document aborted — the loading signs are shown first [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 D2 page data + page load failed: after 25 s the loading state is cleared (no bar, no row sign, nothing busy) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 D2 the row says «не удалось загрузить — коснитесь ещё раз» (and the live region) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 F3 «Вперёд» while loading: the forward page shown, contents closed, no loading signs, nothing busy [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 iphone14 F3 the pending load adds no history entry later and nothing reopens [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop 1 at once (≤100 ms) after the 2nd tap: loading bar at the top [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop 1 at once (≤100 ms) after the 2nd tap: the tapped row says «загружается…» [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop setup: the network delay really intercepted the page data (counter > 0) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop G a11y: «загружается» in a live region (role=status) outside aria-busy, ≤100 ms, present before the tap [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop 2 repeated taps while loading: loading signs stay (navigation not restarted / not broken) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop B 9.5 s into a 12 s load: still the contents with the loading signs (not the old page) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop B 3 slow load: the old page never flashed; contents closed together with the new page [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop C repeated tap after 8 s: the loading signs stay (nothing restarted, menu not unlocked) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop C repeated tap after 8 s: no second navigation (no new page-data request, page came with the 1st load) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop C repeated tap after 8 s: history +1 only, final URL = the tapped (last) target [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop C 3 the old page never flashed [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop F «Назад» while loading: loading signs cleared at once, the step before (contents) shown [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop F «Назад» while loading: the cancelled page never opens later (URL, history unchanged) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop F 3 no flash of the old page after «Назад» (contents stay) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop F2 fast «Назад»→«Вперёд» while loading: contents (the highlighted step), no loading signs, nothing busy [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop F2 the cancelled page never opens later (URL, history unchanged) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop C2 setup: a second contents row linking to another page [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop C2 another row after 8 s: history +1 only, the LAST choice opened and stays (the replaced load never lands) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop C2 3 the old page never flashed [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop C2 «Назад» from it: the contents on the page before [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop D page data failed: the loading state is cleared (page opened another way, or menu not busy) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop D2 setup: page data and document aborted — the loading signs are shown first [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop D2 page data + page load failed: after 25 s the loading state is cleared (no bar, no row sign, nothing busy) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop D2 the row says «не удалось загрузить — коснитесь ещё раз» (and the live region) [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop F3 «Вперёд» while loading: the forward page shown, contents closed, no loading signs, nothing busy [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  SKIP s30 desktop F3 the pending load adds no history entry later and nothing reopens [toc=default] — continuous target is already in the DOM; no pending chapter fetch to delay, fail or cancel.
+  FAIL s01 iphone14-ru-iast hint shown once on first visit [toc=default]
+  FAIL s01 pixel7-ru-iast hint shown once on first visit [toc=default]
+  FAIL s00 iphone14 old /ru/<chapter>/ -> /ru-iast/<chapter>/ (hash kept) http://127.0.0.1:59926/arcana-paddhati/ru-iast/offering-bhoga/#x
+  FAIL s00 pixel7 old /ru/<chapter>/ -> /ru-iast/<chapter>/ (hash kept) http://127.0.0.1:59926/arcana-paddhati/ru-iast/offering-bhoga/#x
+  FAIL s27 s27 suite produced no checks (rc=1), see ../arcana-pr2-baseline-fast-results/s27.log
+  FAIL s28 s28 suite crashed (rc=1), see ../arcana-pr2-baseline-fast-results/s28.log
+  FAIL s29 s29 suite crashed (rc=1), see ../arcana-pr2-baseline-fast-results/s29.log
+  FAIL s37 iphone14 s37_opened_chapter_visible: expanded 4 → collapsed 5 {"beforeChapter4": {"navTop": 180.25, "navBottom": 787, "scrollTop": 654, "row": {"top": -21.75, "bottom": 22.25, "height": 44, "fraction": 0}, "first": {"top": 22.25,
+  FAIL s37 iphone14 s37_mark_follows_reading: 11-gandha → 14-dipa {"state": {"url": "/arcana-paddhati/ru-iast/arcana-procedure/#11-gandha", "menu": true, "lit": ["sub:arcana-procedure#11-gandha"], "open": ["arcana-procedure", "temple-worshi
+  FAIL s37 iphone14 s37_mark_follows_reading: 2-svagata → 6-madhuparka {"state": {"url": "/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata", "menu": true, "lit": ["sub:arcana-procedure#2-svagata"], "open": ["arcana-procedure", "temple-w
+  FAIL s37 iphone14 s37_close_toc_keeps_place: x {"loadedAndHydrated": {"scroll": 87318, "entryId": "2-t6xp2c", "scrollRestoration": "auto"}, "before": 88725, "opened": 88725, "closed": 88725, "touched": 88725, "later": 88725, "pops": [{"sc
+  FAIL s37 iphone14 s37_close_toc_keeps_place: backdrop {"loadedAndHydrated": {"scroll": 87318, "entryId": "2-z906ks", "scrollRestoration": "auto"}, "before": 88725, "opened": 88725, "closed": 88725, "touched": 88725, "later": 88725, "pops"
+  FAIL s37 iphone14 s37_reload_keeps_place: reading 4.6 {"before": 88725, "restored": 88725, "afterContentsOpened": 88725, "maxDisplacement": 0, "beforeFooter": "Глава 4.6", "footer": "Глава 4.6", "state": {"url": "/arcana-paddhati/ru-iast/
+  FAIL s26 pixel7 6 tilak rows 1–12: place / mantra / gap → this row (place AND mantra banded) + exactly its spot [(1, 'no gap between place and mantra', 5), (2, 'no gap between place and mantra', 5), (3, 'no gap between place and mantra'
+  FAIL s26 iphone14 6 tilak rows 1–12: place / mantra / gap → this row (place AND mantra banded) + exactly its spot [(1, 'no gap between place and mantra', 4.4840087890625), (2, 'no gap between place and mantra', 4.4840087890625), (3, 'no g
+  FAIL s37 pixel7 s37_opened_chapter_visible: expanded 4 → collapsed 5 {"beforeChapter4": {"navTop": 180.25, "navBottom": 858, "scrollTop": 619, "row": {"top": 13.25, "bottom": 57.25, "height": 44, "fraction": 0}, "first": {"top": 57.25, 
+  FAIL s37 pixel7 s37_opened_chapter_visible: daily-deity-schedule {"navTop": 180.25, "navBottom": 858, "scrollTop": 1499, "row": {"top": 179.75, "bottom": 242.25, "height": 62.5, "fraction": 0.992}, "first": {"top": 242.25, "bottom": 286
+  FAIL s37 pixel7 s37_mark_follows_reading: 11-gandha → 14-dipa {"state": {"url": "/arcana-paddhati/ru-iast/arcana-procedure/#11-gandha", "menu": true, "lit": ["sub:arcana-procedure#11-gandha"], "open": ["arcana-procedure", "temple-worshi
+  FAIL s37 pixel7 s37_mark_follows_reading: 2-svagata → 6-madhuparka {"state": {"url": "/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata", "menu": true, "lit": ["sub:arcana-procedure#2-svagata"], "open": ["arcana-procedure", "temple-w
+  FAIL s37 pixel7 s37_reload_keeps_place: reading 4.6 {"before": 85640, "restored": 85640, "afterContentsOpened": 85640, "maxDisplacement": 0, "beforeFooter": "Глава 4.6", "footer": "Глава 4.6", "state": {"url": "/arcana-paddhati/ru-iast/
+
+Pārkāptie Satkirti likumi:
+  UI-7.1 Русский язык в книге один и называется «Русский»: текст по-русски, санскрит латиницей (IAST). Отдельной русско  (2 fail)
+  UI-8.3 Приложение подстраивается под все размеры: iPad Pro / обычный / Mini, большие iPhone, Android-телефоны (Samsun  (2 fail)
+  UI-11.6 Список тилаки: касание части тела, мантры или промежутка между ними подсвечивает всю строку (часть тела и мант  (2 fail)

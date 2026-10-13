@@ -1,0 +1,105 @@
+iphone14
+  [PASS] iphone14 introduction: at most one next-chapter link in the document 
+  [PASS] iphone14 introduction: link is the article's last block (after all content) 
+  [PASS] iphone14 introduction: «След. глава ›» -> gaudiya-emblem 
+  [PASS] iphone14 introduction: next chapter's title under it (Эмблема Гаудия-матха…), smaller 
+  [PASS] iphone14 introduction: tap target >= 44px high, inside the screen 
+  [PASS] iphone14 introduction: translate=no, book serif font 
+  [PASS] iphone14 introduction: at the chapter end the link is fully visible above the bottom bar 
+  [PASS] iphone14 introduction: tap opens gaudiya-emblem 
+  [PASS] iphone14 introduction: next chapter starts at its top 
+  [PASS] iphone14 introduction: browser Back returns to introduction 
+  [PASS] iphone14 introduction: ...at the place where the reader left it (chapter end) 
+  [PASS] iphone14 introduction: browser Forward -> gaudiya-emblem again 
+  [PASS] iphone14 mangalacarana: at most one next-chapter link in the document 
+  [PASS] iphone14 mangalacarana: link is the article's last block (after all content) 
+  [PASS] iphone14 mangalacarana: «След. глава ›» -> introduction 
+  [PASS] iphone14 mangalacarana: next chapter's title under it (Введение…), smaller 
+  [PASS] iphone14 mangalacarana: tap target >= 44px high, inside the screen 
+  [PASS] iphone14 mangalacarana: translate=no, book serif font 
+  [PASS] iphone14 mangalacarana: at the chapter end the link is fully visible above the bottom bar 
+  [PASS] iphone14 mangalacarana: tap opens introduction 
+  [PASS] iphone14 mangalacarana: next chapter starts at its top 
+  [PASS] iphone14 mangalacarana: «‹ Назад» returns to mangalacarana 
+  [PASS] iphone14 vigraha-tattva: at most one next-chapter link in the document 
+  [PASS] iphone14 vigraha-tattva: link is the article's last block (after all content) 
+  [PASS] iphone14 vigraha-tattva: «След. глава ›» -> daily-duties-brahma-muhurta 
+  [PASS] iphone14 vigraha-tattva: next chapter's title under it (1. …), smaller 
+  [PASS] iphone14 vigraha-tattva: tap target >= 44px high, inside the screen 
+  [PASS] iphone14 vigraha-tattva: translate=no, book serif font 
+  [PASS] iphone14 vigraha-tattva: at the chapter end the link is fully visible above the bottom bar 
+  [PASS] iphone14 vigraha-tattva: tap opens daily-duties-brahma-muhurta 
+  [PASS] iphone14 vigraha-tattva: next chapter starts at its top 
+  [PASS] iphone14 vigraha-tattva: «‹ Назад» returns to vigraha-tattva 
+  [PASS] iphone14 offering-bhoga: at most one next-chapter link in the document 
+  [PASS] iphone14 offering-bhoga: link is the article's last block (after all content) 
+  [PASS] iphone14 offering-bhoga: «След. глава ›» -> mantras-honouring-caranamrita 
+  [PASS] iphone14 offering-bhoga: next chapter's title under it (7. …), smaller 
+  [PASS] iphone14 offering-bhoga: tap target >= 44px high, inside the screen 
+  [PASS] iphone14 offering-bhoga: translate=no, book serif font 
+  [PASS] iphone14 offering-bhoga: at the chapter end the link is fully visible above the bottom bar 
+  [PASS] iphone14 offering-bhoga: tap opens mantras-honouring-caranamrita 
+  [PASS] iphone14 offering-bhoga: next chapter starts at its top 
+  [PASS] iphone14 offering-bhoga: browser Back returns to offering-bhoga 
+  [PASS] iphone14 offering-bhoga: ...at the place where the reader left it (chapter end) 
+  [PASS] iphone14 offering-bhoga: browser Forward -> mantras-honouring-caranamrita again 
+  [PASS] iphone14 main-worship-sixteen-items: at most one next-chapter link in the document 
+  [PASS] iphone14 main-worship-sixteen-items: link is the article's last block (after all content) 
+  [PASS] iphone14 main-worship-sixteen-items: «След. глава ›» -> home-worship 
+  [PASS] iphone14 main-worship-sixteen-items: next chapter's title under it (Часть II. …), smaller 
+  [PASS] iphone14 main-worship-sixteen-items: tap target >= 44px high, inside the screen 
+  [PASS] iphone14 main-worship-sixteen-items: translate=no, book serif font 
+  [PASS] iphone14 main-worship-sixteen-items: at the chapter end the link is fully visible above the bottom bar 
+  [PASS] iphone14 main-worship-sixteen-items: tap opens home-worship 
+  [PASS] iphone14 main-worship-sixteen-items: next chapter starts at its top 
+  [PASS] iphone14 main-worship-sixteen-items: «‹ Назад» returns to main-worship-sixteen-items 
+  [PASS] iphone14 guru-puja-vyasa-puja: at most one next-chapter link in the document 
+  [PASS] iphone14 guru-puja-vyasa-puja: link is the article's last block (after all content) 
+  [PASS] iphone14 guru-puja-vyasa-puja: «След. глава ›» -> major-festivals 
+  [PASS] iphone14 guru-puja-vyasa-puja: next chapter's title under it (13. …), smaller 
+  [PASS] iphone14 guru-puja-vyasa-puja: tap target >= 44px high, inside the screen 
+  [PASS] iphone14 guru-puja-vyasa-puja: translate=no, book serif font 
+  [PASS] iphone14 guru-puja-vyasa-puja: at the chapter end the link is fully visible above the bottom bar 
+  [PASS] iphone14 guru-puja-vyasa-puja: tap opens major-festivals 
+  [PASS] iphone14 guru-puja-vyasa-puja: next chapter starts at its top 
+  [PASS] iphone14 guru-puja-vyasa-puja: «‹ Назад» returns to guru-puja-vyasa-puja 
+  [PASS] iphone14 parampara: at most one next-chapter link in the document 
+  [PASS] iphone14 parampara: link is the article's last block (after all content) 
+  [PASS] iphone14 parampara: «След. глава ›» -> mangalacarana 
+  [PASS] iphone14 parampara: next chapter's title under it (Мангалачарана…), smaller 
+  [PASS] iphone14 parampara: tap target >= 44px high, inside the screen 
+  [PASS] iphone14 parampara: translate=no, book serif font 
+  [PASS] iphone14 parampara: at the chapter end the link is fully visible above the bottom bar 
+  [PASS] iphone14 parampara: tap opens mangalacarana 
+  [PASS] iphone14 parampara: next chapter starts at its top 
+  [PASS] iphone14 parampara: «‹ Назад» returns to parampara 
+  [PASS] iphone14 major-festivals: at most one next-chapter link in the document 
+  [PASS] iphone14 major-festivals: link is the article's last block (after all content) 
+  [PASS] iphone14 major-festivals: «След. глава ›» -> mangala-arati-songs 
+  [PASS] iphone14 major-festivals: next chapter's title under it (14. …), smaller 
+  [PASS] iphone14 major-festivals: tap target >= 44px high, inside the screen 
+  [PASS] iphone14 major-festivals: translate=no, book serif font 
+  [PASS] iphone14 major-festivals: at the chapter end the link is fully visible above the bottom bar 
+  [PASS] iphone14 major-festivals: tap opens mangala-arati-songs 
+  [PASS] iphone14 major-festivals: next chapter starts at its top 
+  [PASS] iphone14 major-festivals: «‹ Назад» returns to major-festivals 
+  [PASS] iphone14 gaura-arati-songs: at most one next-chapter link in the document 
+  [PASS] iphone14 gaura-arati-songs: link is the article's last block (after all content) 
+  [PASS] iphone14 gaura-arati-songs: «След. глава ›» -> kartika-bhajans 
+  [PASS] iphone14 gaura-arati-songs: next chapter's title under it (16. …), smaller 
+  [PASS] iphone14 gaura-arati-songs: tap target >= 44px high, inside the screen 
+  [PASS] iphone14 gaura-arati-songs: translate=no, book serif font 
+  [PASS] iphone14 gaura-arati-songs: at the chapter end the link is fully visible above the bottom bar 
+  [PASS] iphone14 gaura-arati-songs: tap opens kartika-bhajans 
+  [PASS] iphone14 gaura-arati-songs: next chapter starts at its top 
+  [PASS] iphone14 gaura-arati-songs: «‹ Назад» returns to gaura-arati-songs 
+  [PASS] iphone14 kartika-bhajans (last chapter): no «След. глава» 
+  [PASS] iphone14 empty part page (Часть II) -> Часть III 
+  [PASS] iphone14 English page: «Next chapter ›» -> /daily-duties-brahma-muhurta/ (v7.1: Maṅgalācaraṇa before the Introduction) 
+  [PASS] iphone14 link text follows «Аа» 
+  [PASS] iphone14 night theme: gold label, light-muted title 
+  [PASS] iphone14 sepia theme: accent label, muted title 
+  [PASS] iphone14 no requests to third-party hosts 
+  [PASS] iphone14 no page errors 
+
+102/102 passed

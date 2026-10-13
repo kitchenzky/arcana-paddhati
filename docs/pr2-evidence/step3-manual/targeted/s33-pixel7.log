@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/Users/user/Desktop/arcana-paddhati/qa/suites/s33_toc_one_tap.py", line 91, in run
+    assert locator().get_attribute("aria-expanded") == "false"
+AssertionError
+  [FAIL] pixel7 two/white: 
+Traceback (most recent call last):
+  File "/Users/user/Desktop/arcana-paddhati/qa/suites/s33_toc_one_tap.py", line 105, in run
+    assert state()["lit"] == [f"sub:{CHAPTER}#{SUBSECTION}"]
+AssertionError
+  [FAIL] pixel7 one/white: 
+Traceback (most recent call last):
+  File "/Users/user/Desktop/arcana-paddhati/qa/suites/s33_toc_one_tap.py", line 91, in run
+    assert locator().get_attribute("aria-expanded") == "false"
+AssertionError
+  [FAIL] pixel7 two/sepia: 
+Traceback (most recent call last):
+  File "/Users/user/Desktop/arcana-paddhati/qa/suites/s33_toc_one_tap.py", line 105, in run
+    assert state()["lit"] == [f"sub:{CHAPTER}#{SUBSECTION}"]
+AssertionError
+  [FAIL] pixel7 one/sepia: 
+Traceback (most recent call last):
+  File "/Users/user/Desktop/arcana-paddhati/qa/suites/s33_toc_one_tap.py", line 91, in run
+    assert locator().get_attribute("aria-expanded") == "false"
+AssertionError
+  [FAIL] pixel7 two/night: 
+Traceback (most recent call last):
+  File "/Users/user/Desktop/arcana-paddhati/qa/suites/s33_toc_one_tap.py", line 105, in run
+    assert state()["lit"] == [f"sub:{CHAPTER}#{SUBSECTION}"]
+AssertionError
+  [FAIL] pixel7 one/night: 
+Traceback (most recent call last):
+  File "/Users/user/Desktop/arcana-paddhati/qa/suites/s33_toc_one_tap.py", line 105, in run
+    assert state()["lit"] == [f"sub:{CHAPTER}#{SUBSECTION}"]
+AssertionError
+  [FAIL] pixel7 default/white: 
+0/7 passed

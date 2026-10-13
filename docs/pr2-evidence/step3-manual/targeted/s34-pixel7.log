@@ -1,0 +1,4 @@
+  [PASS] pixel7/white: cover scroll, deep link, reload, next chapter, Back/Forward, offline
+  [PASS] pixel7/sepia: cover scroll, deep link, reload, next chapter, Back/Forward, offline
+  [PASS] pixel7/night: cover scroll, deep link, reload, next chapter, Back/Forward, offline
+3/3 passed

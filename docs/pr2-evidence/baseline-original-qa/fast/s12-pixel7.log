@@ -1,0 +1,5 @@
+pixel7
+  [PASS] pixel7 6 back (sys) -> search with the query, opened result in view (round 1) 
+  [PASS] pixel7 6 back (app) -> search with the query, opened result in view (round 2) 
+
+2/2 passed

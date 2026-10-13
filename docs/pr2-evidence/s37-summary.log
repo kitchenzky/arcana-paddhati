@@ -1,0 +1,9 @@
+QA full: 2 darbi, 6 paralēli, serveris http://127.0.0.1:65223/arcana-paddhati (out/)
+  OK   s37    pixel7                         23 pass   0 fail      54s
+  FAIL s37    iphone14                       21 pass   2 fail      58s
+  atkārtoju 1 kritušos darbus vienu reizi …
+  FAIL s37    iphone14                     (atkārtoti)   2 fail
+
+QA full: 44 pass, 2 fail, 0 skip, 1.9 min
+  FAIL s37 iphone14 s37_close_toc_keeps_place: x {"before": 88725, "opened": 88725, "closed": 88725, "touched": 88725, "later": 88725, "pops": [{"scroll": 87318, "savedScroll": 88725, "hash": "#2-svagata"}], "maxDisplacement": 1407}
+  FAIL s37 iphone14 s37_close_toc_keeps_place: backdrop {"before": 88725, "opened": 88725, "closed": 88725, "touched": 88725, "later": 88725, "pops": [{"scroll": 87318, "savedScroll": 88725, "hash": "#2-svagata"}], "maxDisplacement": 1407}

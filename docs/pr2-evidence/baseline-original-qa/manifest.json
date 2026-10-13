@@ -1,0 +1,11 @@
+{
+  "application_commit": "55ffc49",
+  "application_worktree": "/private/tmp/arcana-pr2-baseline-55ffc49",
+  "test_harness": "/private/tmp/arcana-pr2-baseline-qa",
+  "application_changes": [],
+  "test_adaptations": [
+    "Register Pixel 7 for s33 and s34; original assertions unchanged",
+    "Run the same new s37 externally against the baseline app"
+  ],
+  "s37_sha256": "3ef7a4872160e567e47370604b6629abcc78a3f7b9a79a837b4b8467d3dbb403"
+}

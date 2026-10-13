@@ -1,0 +1,40 @@
+  [PASS] data 9 parampara PNGs: no rhombi at the oval's top / bottom; every PNG has its WebP 
+== pixel7
+  [PASS] pixel7 1/2 «Содержание»: no «Показать…» switches, no language menu 
+  [PASS] pixel7 1/2 «Аа»: both switches and the language menu 
+  [PASS] pixel7 1 «Аа» switch «весь пословный перевод» opens / closes every word-by-word panel 
+  [PASS] pixel7 1 «Аа» switch «все переводы» opens / closes every translation 
+  [PASS] pixel7 3 «Обложка» in the fixed part (does not scroll), list scrolls under it from «Гуру-парампара» 
+  [PASS] pixel7 4 every row type reacts over its full strip, left and right edge (12 rows: cover, grp, sec, sub) 
+  [PASS] pixel7 5 part IV opened at the bottom → its rows in view (or the row at the top / list at its end) 
+  [PASS] pixel7 5 chapter 16 opened at the bottom → its rows in view (or the row at the top / list at its end) 
+  [FAIL] pixel7 6 tilak rows 1–12: place / mantra / gap → this row (place AND mantra banded) + exactly its spot [(1, 'no gap between place and mantra', 5), (2, 'no gap between place and mantra', 5), (3, 'no gap between place and mantra', 5)]
+  [PASS] pixel7 6 right of the mantra stays page (no row marked) 
+  [PASS] pixel7 6 crown: «tat prakṣālana-toyaṁ tu / vāsudevāya mūrdhani» and «oṁ vāsudevāya namaḥ» → marked + the crown (Tilak-13) 
+  [PASS] pixel7 6 crown on the picture → «oṁ vāsudevāya namaḥ» marked, in view 
+  [PASS] pixel7 7 short mantras have no «пословно» (RU+EN, 7 chapters; 182 short shown, 106 other «пословно» kept) 
+  [PASS] pixel7 7b «Арчана Шри Гуру»: one-line «… aiṁ gurave namaḥ» mantras without «пословно», «перевод» kept ({'n': 17, 'wbw': 0, 'tr': 17}) 
+  [PASS] pixel7 8 results: every occurrence of «Jayati» marked (1 results), clearly visible band 
+  [PASS] pixel7 8 opened result: «jayati» marked in the text, in view 
+  [PASS] pixel7 8 next tap only clears the mark (menu stays hidden) 
+  [PASS] pixel7 9 parampara: 9 portraits shown from WebP (PNG fallback in <picture>) 
+  [PASS] pixel7 9 a tap on the portrait still toggles the menu (§10) 
+  [PASS] pixel7 no page errors 
+  [PASS] pixel7 10 (setup) result opened with the word marked 
+  [PASS] pixel7 10 Link to the next chapter (keyboard, no tap) → mark gone on the new page 
+  [PASS] pixel7 10 after the Link: the first tap on the new page is not eaten (menu toggles) 
+  [PASS] pixel7 10 URL change by pushState (hash to elsewhere) → mark and scroll ownership gone 
+  [PASS] pixel7 10 Back from the marked result → no mark 
+  [PASS] pixel7 10 Forward → no stale mark 
+  [PASS] pixel7 15 (setup) result opened with the word marked and a #anchor in the URL 
+  [PASS] pixel7 15 same-URL history state patch → mark stays 
+  [PASS] pixel7 15 replaceState #anchor → none (same page) → mark and scroll ownership gone 
+  [PASS] pixel7 15 pushState #anchor → none → mark gone 
+  [PASS] pixel7 15 a waiting mark is dropped by an unrelated step (not painted when the place shows again) 
+  [PASS] pixel7 16 at /gaudiya-emblem/#emblem-conclusion, «географическое» (only in #emblem-gaudiya-matha) opened → marked in #emblem-gaudiya-matha, in view, URL #emblem-gaudiya-matha 
+  [PASS] pixel7 11 no Highlight API: the found word wrapped in a visible mark, in view 
+  [PASS] pixel7 11 fallback: the next tap removes the mark, text unchanged, menu stays hidden 
+  [PASS] pixel7 12 offline (SW): the 9 parampara portraits load from WebP 
+  [PASS] pixel7 12 WebP fails to load → the PNG is shown (9 portraits, naturalWidth > 0) 
+  [PASS] pixel7 14 first tap opens every contents row type (cover=cover, chapter=sec:mangalacarana, group heading=grp:introduction, chapter with subsections=sec:gaudiya-emblem, subsection=sub:daily-duties-brahma-muhurta#morning-prayers) 
+s26: 37/38 passed

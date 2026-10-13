@@ -1,0 +1,14 @@
+iphone14 default {'w': 390, 'col': 364, 'ratio': 0.9333333333333333, 'body': 18, 'verse': 19.799999, 'h1': 31.5, 'vAlign': 'center', 'cpl': 40.44444444444444}
+  [PASS] iphone14 column >= 92% of viewport 0.933
+  [PASS] iphone14 body font >= 18px 18
+  [PASS] iphone14 verse centred center
+tap {'x': 73, 'y': 270.71875, 'kind': 'text'} http://127.0.0.1:64166/arcana-paddhati/ru-iast/daily-duties-brahma-muhurta/
+iphone14 A+x2 {'w': 390, 'col': 364, 'ratio': 0.9333333333333333, 'body': 21.959999, 'verse': 24.156, 'h1': 38.43, 'vAlign': 'center', 'cpl': 33.151185480472925}
+  [PASS] iphone14 A+x2 body >= +15% 18->21.959999
+  [PASS] iphone14 A+x2 verse >= +15% 19.799999->24.156
+  [PASS] iphone14 A+x2 h1 scales 31.5->38.43
+  [PASS] iphone14 A- reduces 21.959999->19.799999
+  [PASS] iphone14 size persists after reload 21.959999
+  [PASS] iphone14 sepia bg #EFE6D2 rgb(239, 230, 210)
+
+9/9 passed

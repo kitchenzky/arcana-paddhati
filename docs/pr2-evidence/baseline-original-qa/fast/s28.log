@@ -1,0 +1,5 @@
+  [PASS] data a «pādya-pātra» / «arghya-pātra» (never «padya-/argya-pātra») in books, translation caches, i18n.json (0 cache files) 
+Traceback (most recent call last):
+  File "/private/tmp/arcana-pr2-baseline-qa/suites/s28_a68_night_0910.py", line 65, in <module>
+    import night_sync as NS  # noqa: E402
+ModuleNotFoundError: No module named 'night_sync'

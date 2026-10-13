@@ -1,0 +1,13 @@
+  [PASS] data a «pādya-pātra» / «arghya-pātra» (never «padya-/argya-pātra») in books, translation caches, i18n.json (0 cache files) 
+/Users/user/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/user/Desktop/arcana-paddhati/qa/suites/s28_a68_night_0910.py", line 65, in <module>
+    import night_sync as NS  # noqa: E402
+  File "/Users/user/Desktop/arcana-paddhati/scripts/translate/night_sync.py", line 79, in <module>
+    KEYS = keys()
+  File "/Users/user/Desktop/arcana-paddhati/scripts/translate/night_sync.py", line 76, in keys
+    return [c["anymodel"][k] for k in c["anymodel"] if re.fullmatch(r"key_\d+", k)]
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/configparser.py", line 963, in __getitem__
+    raise KeyError(key)
+KeyError: 'anymodel'

@@ -1,0 +1,78 @@
+  [PASS] data I book.ru-iast.json: 271/271 verses with wbw 
+  [PASS] data I book.ru-iast.json: no Bengali letters, no «Камадева » (gen.) 
+  [PASS] data I book.ru.json: 271/271 verses with wbw 
+  [PASS] data I book.ru.json: no Bengali letters, no «Камадева » (gen.) 
+  [PASS] cover F no «v.1» mark at the top right 
+  [PASS] cover F CA emblem LEFT of «CHAITÁNYA / ACADEMY» 
+  [PASS] cover F CA block centred at the bottom 
+  [PASS] cover F CA block larger than before (emblem >= 80 px tall at 874 px) 
+  [PASS] cover F text in two lines 
+pixel7
+  [PASS] pixel7 A open «Содержание» 
+  [PASS] pixel7 A fresh contents: one row lit = current chapter, in view, beige band 
+  [PASS] pixel7 C no «Начало главы» row (open chapter list) 
+  [PASS] pixel7 C chapter list starts with subsection «1.1.» 
+  [PASS] pixel7 D «Введение» is a group heading without number 
+  [PASS] pixel7 D first tap on «Введение» expands without moving the reader's mark 
+  [PASS] pixel7 D one tap «Введение» -> Эмблема / Виграха-таттва, no numbers 
+  [PASS] pixel7 A expanding «Введение» keeps one reading-place mark, in view, with its colours 
+  [PASS] pixel7 D second tap on «Введение» collapses it 
+  [PASS] pixel7 A collapsing an unrelated group keeps the reading-place mark 
+  [PASS] pixel7 A first tap «Виграха-таттва» opens its top and subsection list 
+  [PASS] pixel7 A chapter collapses without navigation or losing its mark, then reopens on one tap 
+  [PASS] pixel7 D subsection numbering inside the Introduction: «10. Тота Гопинатх…» 
+  [PASS] pixel7 A first tap on «Тота Гопинатх» opens it and closes Contents 
+  [PASS] pixel7 A one tap opens «Тота Гопинатх» at its subsection 
+  [PASS] pixel7 A ‹ Назад -> preceding Contents action, reading place marked and in view 
+  [PASS] pixel7 A Back step 2 -> chapter collapsed, same URL and open lists 
+  [PASS] pixel7 A Back step 3 -> chapter open at its top, same URL and open lists 
+  [PASS] pixel7 A Back step 4 -> reader's original branch collapsed, Introduction open 
+  [PASS] pixel7 A Back step 5 -> original chapter, Introduction and Temple Worship open 
+  [PASS] pixel7 A Back step 6 -> original chapter, Introduction collapsed 
+  [PASS] pixel7 A Back step 7 -> original chapter, Introduction open 
+  [PASS] pixel7 A Back step 8 -> Contents as opened 
+  [PASS] pixel7 A Back step 9 -> menu closed, the page where the reader was 
+  [PASS] pixel7 A path contains exactly nine real action entries 
+  [PASS] pixel7 B «Вперёд» is a live button (not disabled) 
+  [PASS] pixel7 B «Вперёд» -> Contents as opened, original reading place marked 
+  [PASS] pixel7 B forward steps retrace every URL and open list, marking the reading place 
+  [PASS] pixel7 B forward -> «Тота Гопинатх» page again 
+  [PASS] pixel7 A contents on Тота Гопинатх page: that subsection lit by default 
+  [PASS] pixel7 A tap «Храмовый стандарт» keeps the reading-place mark (only it) 
+  [PASS] pixel7 H part title «Праздники, обеты и песни арати» 
+  [PASS] pixel7 A tap «Праздники, обеты и песни арати» keeps the reading-place mark and reveals the group 
+  [PASS] pixel7 A tap «Стандарт для проповеднических центров» keeps the reading-place mark 
+  [PASS] pixel7 D Part I starts with chapter «1.» 
+  [PASS] pixel7 B bars' text is not selectable (no look-up bar on Android) 
+  [PASS] pixel7 B «Вперёд» with no step: stays, says ««Вперёд» — после «Назад»» 
+  [PASS] pixel7 B the note sits above the bottom bar, on screen 
+  [PASS] pixel7 D «След. глава ›» after offering-bhoga -> 7. Мантры почитания чаранамриты 
+  [PASS] pixel7 B ‹ Назад -> previous chapter 
+  [PASS] pixel7 B «Вперёд ›» -> next chapter again (Android case) 
+  [PASS] pixel7 D Introduction page lists its 2 chapters (v7.1) 
+  [PASS] pixel7 D Introduction «След. глава ›» -> «Эмблема Гаудия-матха» (no number) 
+  [PASS] pixel7 D Мангалачарана «След. глава ›» -> «Введение» (v7.1) 
+  [PASS] pixel7 D Виграха-таттва page: no chapter number in the title 
+  [PASS] pixel7 D status line names the chapter (no «Глава N») 
+  [PASS] pixel7 D status line «Глава 2 · …» 
+  [PASS] pixel7 G title only «Мангалачарана», no subtitle 
+  [PASS] pixel7 G v7.1 no headings at all on the page 
+  [PASS] pixel7 G no explanatory headings (прославление / покровитель / призывающие) 
+  [PASS] pixel7 G every verse has «пословно» 
+  [PASS] pixel7 E emblem: tap picture part 3 -> part + row highlighted, list scrolled to the row 
+  [PASS] pixel7 E emblem: tap picture part 2.1 -> part + row highlighted, list scrolled to the row 
+  [PASS] pixel7 E emblem: tap picture part 10 -> part + row highlighted, list scrolled to the row 
+  [PASS] pixel7 E emblem: tap picture part 11 -> part + row highlighted, list scrolled to the row 
+  [PASS] pixel7 E emblem: tap picture part 12 -> part + row highlighted, list scrolled to the row 
+  [PASS] pixel7 E emblem: tap a list row -> row band + picture part highlighted 
+  [PASS] pixel7 E tilak: tap picture part 5 -> part + row highlighted, list scrolled to the row 
+  [PASS] pixel7 E tilak: tap a list row -> row band + picture part highlighted 
+  [PASS] pixel7 E paraphernalia: tap picture part 7 -> part + row highlighted, list scrolled to the row 
+  [PASS] pixel7 E paraphernalia: tap a list row -> row band + picture part highlighted 
+  [PASS] pixel7 F cover fully on screen 
+  [PASS] pixel7 H English part title «Festivals, Vows and Ārati Songs» 
+  [PASS] pixel7 D English: «Introduction» group heading 
+  [PASS] pixel7 no requests to third-party hosts 
+  [PASS] pixel7 no page errors 
+
+75/75 passed
