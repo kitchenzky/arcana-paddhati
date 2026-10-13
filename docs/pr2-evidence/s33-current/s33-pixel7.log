@@ -1,0 +1,8 @@
+  [PASS] pixel7 two/white: chapter, Back, collapse, cover, search and full-width taps
+  [PASS] pixel7 one/white: chapter, Back, collapse, cover, search and full-width taps
+  [PASS] pixel7 two/sepia: chapter, Back, collapse, cover, search and full-width taps
+  [PASS] pixel7 one/sepia: chapter, Back, collapse, cover, search and full-width taps
+  [PASS] pixel7 two/night: chapter, Back, collapse, cover, search and full-width taps
+  [PASS] pixel7 one/night: chapter, Back, collapse, cover, search and full-width taps
+  [PASS] pixel7 default/white: chapter, Back, collapse, cover, search and full-width taps
+7/7 passed
