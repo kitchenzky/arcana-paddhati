@@ -1,0 +1,44 @@
+{
+  "baseline": {
+    "commit": "55ffc49",
+    "qa": "current suite files",
+    "suites": [
+      "s00",
+      "s01",
+      "s26",
+      "s28"
+    ],
+    "devices": [
+      "iphone14",
+      "pixel7"
+    ],
+    "passed": 321,
+    "failed": 9,
+    "failed_job_ids": [
+      "s00/iphone14",
+      "s00/pixel7",
+      "s01/iphone14",
+      "s01/pixel7",
+      "s26/iphone14",
+      "s26/pixel7",
+      "s28"
+    ],
+    "source": "Completed baseline result supplied and confirmed by the user"
+  },
+  "current": {
+    "source": "docs/pr2-evidence/step3-manual/fast/results.json",
+    "failed_job_ids": [
+      "s00/iphone14",
+      "s00/pixel7",
+      "s01/iphone14",
+      "s01/pixel7",
+      "s26/iphone14",
+      "s26/pixel7",
+      "s28"
+    ]
+  },
+  "comparison_scope": "failed job identifiers; ports and log paths are not identifiers",
+  "new_failed_jobs": [],
+  "resolved_failed_jobs": [],
+  "user_confirmed_no_new_failures": true
+}
