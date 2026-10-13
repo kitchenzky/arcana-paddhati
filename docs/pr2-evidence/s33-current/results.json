@@ -1,0 +1,120 @@
+{
+ "mode": "full",
+ "finished": "2026-10-13 17:10:15",
+ "seconds": 129,
+ "jobs": [
+  {
+   "suite": "s33",
+   "devices": [
+    "pixel7"
+   ],
+   "toc_mode": null,
+   "rc": 0,
+   "secs": 123.9,
+   "log": "qa/.results/s33-pixel7.log",
+   "checks": [
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "two/white: chapter, Back, collapse, cover, search and full-width taps"
+    },
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "one/white: chapter, Back, collapse, cover, search and full-width taps"
+    },
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "two/sepia: chapter, Back, collapse, cover, search and full-width taps"
+    },
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "one/sepia: chapter, Back, collapse, cover, search and full-width taps"
+    },
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "two/night: chapter, Back, collapse, cover, search and full-width taps"
+    },
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "one/night: chapter, Back, collapse, cover, search and full-width taps"
+    },
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "default/white: chapter, Back, collapse, cover, search and full-width taps"
+    }
+   ]
+  },
+  {
+   "suite": "s33",
+   "devices": [
+    "iphone14"
+   ],
+   "toc_mode": null,
+   "rc": 0,
+   "secs": 129.2,
+   "log": "qa/.results/s33-iphone14.log",
+   "checks": [
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "two/white: chapter, Back, collapse, cover, search and full-width taps"
+    },
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "one/white: chapter, Back, collapse, cover, search and full-width taps"
+    },
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "two/sepia: chapter, Back, collapse, cover, search and full-width taps"
+    },
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "one/sepia: chapter, Back, collapse, cover, search and full-width taps"
+    },
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "two/night: chapter, Back, collapse, cover, search and full-width taps"
+    },
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "one/night: chapter, Back, collapse, cover, search and full-width taps"
+    },
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "default/white: chapter, Back, collapse, cover, search and full-width taps"
+    }
+   ]
+  }
+ ],
+ "passed": 14,
+ "failed": 0,
+ "skipped": 0,
+ "known": 0,
+ "flaky": []
+}

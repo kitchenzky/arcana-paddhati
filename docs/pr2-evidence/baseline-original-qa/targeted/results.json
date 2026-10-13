@@ -1,0 +1,2230 @@
+{
+ "mode": "full",
+ "finished": "2026-10-13 17:12:47",
+ "seconds": 829,
+ "jobs": [
+  {
+   "suite": "s25",
+   "devices": [
+    "pixel7"
+   ],
+   "toc_mode": "default",
+   "rc": 0,
+   "secs": 46.7,
+   "log": "../arcana-pr2-baseline-qa/.results/s25-pixel7-default.log",
+   "checks": [
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A setup: «Введение» open → collapse, reading place still marked [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A after reload: «Введение» still collapsed, lit, contents open, same URL [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A Назад after reload: the step before (open, reading place marked) [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A Вперёд: collapsed again [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "B setup: 6 steps, each a different state [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "B reload after 3 × Назад: the same URL and open lists, reading place marked [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "B Назад, then Вперёд ×4 after the reload: each step as recorded (to the last one) [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "C deep link: the subsection heading is at the top [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "C contents: that subsection lit, its chapter open [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "C another subsection: default one action / legacy highlight then action [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "C Назад: contents marking the reading place → earlier real action → closed on the deep-linked subsection [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "C Back presses equal the model count [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D double tap on a group: expands then collapses, mark stays at the reading place [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D Назад: preceding action, reading place still marked [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D Назад: the step before the first tap [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D double tap on a subsection: opens it [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D rapid subsection taps push only the selected model actions [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D Назад from rapid subsection taps: contents marking the reading place [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D Назад again: the preceding real action, reading place marked [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: Contents opens one entry [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: group tap marks the place being read [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: group first tap has exactly one action entry [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: group first tap expands by mode [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: chapter tap marks the place being read [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: chapter first tap has exactly one action entry [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: chapter first tap expands by mode [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: chapter first tap opens its top, never a subsection [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: subsection list visible without an extra tap [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: subsection opens in one navigation entry [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: cover to subsection action count [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: Back restores every URL and open list, marking the place [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: Back presses from subsection to cover [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: Forward restores every URL and open list, marking the place [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: Forward presses from cover to subsection [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: second chapter tap collapses without navigating [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: every pushState has a user gesture [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: collapse pushes only its action entry [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: Back restores the collapsed chapter list [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "no page errors [toc=default]"
+    }
+   ]
+  },
+  {
+   "suite": "s03",
+   "devices": [
+    "pixel7"
+   ],
+   "toc_mode": "default",
+   "rc": 0,
+   "secs": 48.0,
+   "log": "../arcana-pr2-baseline-qa/.results/s03-pixel7-default.log",
+   "checks": [
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(a) cover: tap image centre -> bars [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(a) cover: tap image again -> bars hidden [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(a) cover: tap image corner -> bars [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(a) cover: bottom bar has «Назад» / «Вперёд» [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(e) «Содержание» at left edge (<=24px) [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(e) «Аа» at right edge (>= vw-24) [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(e) «Назад» left / «Вперёд» right edge [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(e) hit targets >= 44x44 [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(e) Аа panel below the top bar [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) 1 contents opens [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) 2 part expanded [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) 2a first chapter tap opens top + subsections [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) 2b second chapter tap collapses without navigating [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) 3 chapter opened (first subsection), menu closed [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) 4 sub-section opened [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) back1 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) back2 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) back3 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) back4 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) back5 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) back6 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) back7 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) back8 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) back6 -> original page and scroll restored [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) never on cover [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "SKIP",
+     "name": "(b) extra predecessor before the subsection jump [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above."
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "SKIP",
+     "name": "(b) extra predecessor between chapter opening and group action [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above."
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "SKIP",
+     "name": "(b) extra predecessor between group toggle and Contents opening [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above."
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "SKIP",
+     "name": "(b) extra predecessor before Contents as opened [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above."
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) every pushState had a user gesture (no skippable entries) [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(b) ✕ after expanding -> menu closed, no menu entry left [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(c) Аа opens [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(c) back closes Аа, page stays [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(c) Аа opens again [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(c) «‹ Назад» button closes Аа (a history step) [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(d) result -> back -> search with query [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "(d) back again -> search closed, same page [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "no page errors [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: Contents opens one entry [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: group tap marks the place being read [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: group first tap has exactly one action entry [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: group first tap expands by mode [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: chapter tap marks the place being read [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: chapter first tap has exactly one action entry [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: chapter first tap expands by mode [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: chapter first tap opens its top, never a subsection [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: subsection list visible without an extra tap [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: subsection opens in one navigation entry [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: cover to subsection action count [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: Back restores every URL and open list, marking the place [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: Back presses from subsection to cover [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: Forward restores every URL and open list, marking the place [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: Forward presses from cover to subsection [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: second chapter tap collapses without navigating [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: every pushState has a user gesture [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: collapse pushes only its action entry [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "history: Back restores the collapsed chapter list [toc=default]"
+    }
+   ]
+  },
+  {
+   "suite": "s03",
+   "devices": [
+    "iphone14"
+   ],
+   "toc_mode": "default",
+   "rc": 0,
+   "secs": 51.2,
+   "log": "../arcana-pr2-baseline-qa/.results/s03-iphone14-default.log",
+   "checks": [
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(a) cover: tap image centre -> bars [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(a) cover: tap image again -> bars hidden [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(a) cover: tap image corner -> bars [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(a) cover: bottom bar has «Назад» / «Вперёд» [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(e) «Содержание» at left edge (<=24px) [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(e) «Аа» at right edge (>= vw-24) [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(e) «Назад» left / «Вперёд» right edge [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(e) hit targets >= 44x44 [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(e) Аа panel below the top bar [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) 1 contents opens [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) 2 part expanded [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) 2a first chapter tap opens top + subsections [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) 2b second chapter tap collapses without navigating [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) 3 chapter opened (first subsection), menu closed [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) 4 sub-section opened [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) back1 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) back2 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) back3 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) back4 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) back5 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) back6 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) back7 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) back8 -> preceding real action, same path and open rows [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) back6 -> original page and scroll restored [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) never on cover [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "SKIP",
+     "name": "(b) extra predecessor before the subsection jump [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above."
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "SKIP",
+     "name": "(b) extra predecessor between chapter opening and group action [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above."
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "SKIP",
+     "name": "(b) extra predecessor between group toggle and Contents opening [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above."
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "SKIP",
+     "name": "(b) extra predecessor before Contents as opened [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above."
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(b) ✕ after expanding -> menu closed, no menu entry left [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(c) Аа opens [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(c) back closes Аа, page stays [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(c) Аа opens again [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(c) «‹ Назад» button closes Аа (a history step) [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(d) result -> back -> search with query [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "(d) back again -> search closed, same page [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "no page errors [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: Contents opens one entry [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: group tap marks the place being read [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: group first tap has exactly one action entry [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: group first tap expands by mode [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: chapter tap marks the place being read [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: chapter first tap has exactly one action entry [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: chapter first tap expands by mode [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: chapter first tap opens its top, never a subsection [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: subsection list visible without an extra tap [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: subsection opens in one navigation entry [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: cover to subsection action count [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: Back restores every URL and open list, marking the place [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: Back presses from subsection to cover [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: Forward restores every URL and open list, marking the place [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: Forward presses from cover to subsection [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: second chapter tap collapses without navigating [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: every pushState has a user gesture [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: collapse pushes only its action entry [toc=default]"
+    },
+    {
+     "suite": "s03",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: Back restores the collapsed chapter list [toc=default]"
+    }
+   ]
+  },
+  {
+   "suite": "s25",
+   "devices": [
+    "iphone14"
+   ],
+   "toc_mode": "default",
+   "rc": 0,
+   "secs": 51.6,
+   "log": "../arcana-pr2-baseline-qa/.results/s25-iphone14-default.log",
+   "checks": [
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A setup: «Введение» open → collapse, reading place still marked [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A after reload: «Введение» still collapsed, lit, contents open, same URL [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A Назад after reload: the step before (open, reading place marked) [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A Вперёд: collapsed again [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "B setup: 6 steps, each a different state [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "B reload after 3 × Назад: the same URL and open lists, reading place marked [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "B Назад, then Вперёд ×4 after the reload: each step as recorded (to the last one) [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "C deep link: the subsection heading is at the top [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "C contents: that subsection lit, its chapter open [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "C another subsection: default one action / legacy highlight then action [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "C Назад: contents marking the reading place → earlier real action → closed on the deep-linked subsection [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "C Back presses equal the model count [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D double tap on a group: expands then collapses, mark stays at the reading place [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D Назад: preceding action, reading place still marked [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D Назад: the step before the first tap [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D double tap on a subsection: opens it [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D rapid subsection taps push only the selected model actions [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D Назад from rapid subsection taps: contents marking the reading place [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D Назад again: the preceding real action, reading place marked [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: Contents opens one entry [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: group tap marks the place being read [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: group first tap has exactly one action entry [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: group first tap expands by mode [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: chapter tap marks the place being read [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: chapter first tap has exactly one action entry [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: chapter first tap expands by mode [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: chapter first tap opens its top, never a subsection [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: subsection list visible without an extra tap [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: subsection opens in one navigation entry [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: cover to subsection action count [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: Back restores every URL and open list, marking the place [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: Back presses from subsection to cover [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: Forward restores every URL and open list, marking the place [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: Forward presses from cover to subsection [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: second chapter tap collapses without navigating [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: every pushState has a user gesture [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: collapse pushes only its action entry [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "history: Back restores the collapsed chapter list [toc=default]"
+    },
+    {
+     "suite": "s25",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "no page errors [toc=default]"
+    }
+   ]
+  },
+  {
+   "suite": "s33",
+   "devices": [
+    "pixel7"
+   ],
+   "toc_mode": null,
+   "rc": 1,
+   "secs": 35.1,
+   "log": "../arcana-pr2-baseline-qa/.results/s33-pixel7.log",
+   "checks": [
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "FAIL",
+     "name": "two/white:"
+    },
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "FAIL",
+     "name": "one/white:"
+    },
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "FAIL",
+     "name": "two/sepia:"
+    },
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "FAIL",
+     "name": "one/sepia:"
+    },
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "FAIL",
+     "name": "two/night:"
+    },
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "FAIL",
+     "name": "one/night:"
+    },
+    {
+     "suite": "s33",
+     "dev": "pixel7",
+     "status": "FAIL",
+     "name": "default/white:"
+    }
+   ],
+   "retried": true
+  },
+  {
+   "suite": "s33",
+   "devices": [
+    "iphone14"
+   ],
+   "toc_mode": null,
+   "rc": 1,
+   "secs": 37.7,
+   "log": "../arcana-pr2-baseline-qa/.results/s33-iphone14.log",
+   "checks": [
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "two/white:"
+    },
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "one/white:"
+    },
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "two/sepia:"
+    },
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "one/sepia:"
+    },
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "two/night:"
+    },
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "one/night:"
+    },
+    {
+     "suite": "s33",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "default/white:"
+    }
+   ],
+   "retried": true
+  },
+  {
+   "suite": "s34",
+   "devices": [
+    "pixel7"
+   ],
+   "toc_mode": null,
+   "rc": 0,
+   "secs": 59.5,
+   "log": "../arcana-pr2-baseline-qa/.results/s34-pixel7.log",
+   "checks": [
+    {
+     "suite": "s34",
+     "dev": "pixel7/white:",
+     "status": "PASS",
+     "name": "cover scroll, deep link, reload, next chapter, Back/Forward, offline"
+    },
+    {
+     "suite": "s34",
+     "dev": "pixel7/sepia:",
+     "status": "PASS",
+     "name": "cover scroll, deep link, reload, next chapter, Back/Forward, offline"
+    },
+    {
+     "suite": "s34",
+     "dev": "pixel7/night:",
+     "status": "PASS",
+     "name": "cover scroll, deep link, reload, next chapter, Back/Forward, offline"
+    }
+   ]
+  },
+  {
+   "suite": "s34",
+   "devices": [
+    "iphone14"
+   ],
+   "toc_mode": null,
+   "rc": 0,
+   "secs": 61.8,
+   "log": "../arcana-pr2-baseline-qa/.results/s34-iphone14.log",
+   "checks": [
+    {
+     "suite": "s34",
+     "dev": "iphone14/white:",
+     "status": "PASS",
+     "name": "cover scroll, deep link, reload, next chapter, Back/Forward, offline"
+    },
+    {
+     "suite": "s34",
+     "dev": "iphone14/sepia:",
+     "status": "PASS",
+     "name": "cover scroll, deep link, reload, next chapter, Back/Forward, offline"
+    },
+    {
+     "suite": "s34",
+     "dev": "iphone14/night:",
+     "status": "PASS",
+     "name": "cover scroll, deep link, reload, next chapter, Back/Forward, offline"
+    }
+   ]
+  },
+  {
+   "suite": "s37",
+   "devices": [
+    "pixel7"
+   ],
+   "toc_mode": null,
+   "rc": 1,
+   "secs": 68.3,
+   "log": "../arcana-pr2-baseline-qa/.results/s37-pixel7.log",
+   "checks": [
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "FAIL",
+     "name": "s37_opened_chapter_visible: expanded 4 → collapsed 5 {\"beforeChapter4\": {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 619, \"row\": {\"top\": 13.25, \"bottom\": 57.25, \"height\": 44, \"fraction\": 0}, \"first\": {\"top\": 57.25, \"bottom\": 101.25, \"height\": 44, \"fraction\": 0}}, \"afterChapter5\": {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 525, \"row\": {\"top\": 153.25, \"bottom\": 197.25, \"height\": 44, \"fraction\": 0.38636363636363635}, \"first\": {\"top\": 197.25, \"bottom\": 241.25, \"height\": 44, \"fraction\": 1}}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: gaudiya-emblem {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 0, \"row\": {\"top\": 339.25, \"bottom\": 383.25, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 383.25, \"bottom\": 427.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: vigraha-tattva {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 645, \"row\": {\"top\": 180.25, \"bottom\": 224.25, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 224.25, \"bottom\": 268.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: daily-duties-brahma-muhurta {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 1166, \"row\": {\"top\": 224.25, \"bottom\": 286.75, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 286.75, \"bottom\": 330.75, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "FAIL",
+     "name": "s37_opened_chapter_visible: daily-deity-schedule {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 1499, \"row\": {\"top\": 179.75, \"bottom\": 242.25, \"height\": 62.5, \"fraction\": 0.992}, \"first\": {\"top\": 242.25, \"bottom\": 286.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: worship-sixteen-articles {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 2151, \"row\": {\"top\": 180.25, \"bottom\": 281.25, \"height\": 101, \"fraction\": 1}, \"first\": {\"top\": 281.25, \"bottom\": 325.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: arcana-procedure {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 2898, \"row\": {\"top\": 180.25, \"bottom\": 224.25, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 224.25, \"bottom\": 268.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: arcana-sri-guru {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 3375, \"row\": {\"top\": 497.25, \"bottom\": 541.25, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 541.25, \"bottom\": 585.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: offering-bhoga {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 3899, \"row\": {\"top\": 199.25, \"bottom\": 243.25, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 243.25, \"bottom\": 287.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: mantras-honouring-caranamrita {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 3899, \"row\": {\"top\": 425.25, \"bottom\": 487.75, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 487.75, \"bottom\": 535.75, \"height\": 48, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: maha-abhiseka {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 4271, \"row\": {\"top\": 309.75, \"bottom\": 353.75, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 353.75, \"bottom\": 397.75, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: prayers-forgiveness {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 4271, \"row\": {\"top\": 535.75, \"bottom\": 598.25, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 598.25, \"bottom\": 646.25, \"height\": 48, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: main-worship-sixteen-items {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 4503, \"row\": {\"top\": 416.25, \"bottom\": 478.75, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 478.75, \"bottom\": 526.75, \"height\": 48, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: caturmasya-purusottama-masa {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 5086, \"row\": {\"top\": 267.25, \"bottom\": 329.75, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 329.75, \"bottom\": 377.75, \"height\": 48, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: guru-puja-vyasa-puja {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 5086, \"row\": {\"top\": 603.75, \"bottom\": 666.25, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 666.25, \"bottom\": 710.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: major-festivals {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 5530, \"row\": {\"top\": 404.25, \"bottom\": 448.25, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 448.25, \"bottom\": 492.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: mangala-arati-songs {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 5754, \"row\": {\"top\": 490.25, \"bottom\": 534.25, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 534.25, \"bottom\": 578.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: gaura-arati-songs {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 5842, \"row\": {\"top\": 672.25, \"bottom\": 716.25, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 716.25, \"bottom\": 760.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: kartika-bhajans {\"navTop\": 180.25, \"navBottom\": 858, \"scrollTop\": 5978, \"row\": {\"top\": 670.25, \"bottom\": 714.25, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 714.25, \"bottom\": 758.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "FAIL",
+     "name": "s37_mark_follows_reading: 11-gandha → 14-dipa {\"state\": {\"url\": \"/arcana-paddhati/ru-iast/arcana-procedure/#11-gandha\", \"menu\": true, \"lit\": [\"sub:arcana-procedure#11-gandha\"], \"open\": [\"arcana-procedure\", \"temple-worship\"], \"history\": 3, \"pushes\": 1}, \"footer\": \"Глава 4.14\", \"geometry\": {\"top\": 110.421875, \"line\": 187.575}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "FAIL",
+     "name": "s37_mark_follows_reading: 2-svagata → 6-madhuparka {\"state\": {\"url\": \"/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata\", \"menu\": true, \"lit\": [\"sub:arcana-procedure#2-svagata\"], \"open\": [\"arcana-procedure\", \"temple-worship\"], \"history\": 3, \"pushes\": 1}, \"footer\": \"Глава 4.6\", \"geometry\": {\"top\": 110.390625, \"line\": 187.575}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_close_toc_keeps_place: x {\"loadedAndHydrated\": {\"scroll\": 84360, \"entryId\": \"2-jff32j\", \"scrollRestoration\": \"auto\"}, \"before\": 85640, \"opened\": 85640, \"closed\": 85640, \"touched\": 85640, \"later\": 85640, \"pops\": [{\"scroll\": 85640, \"savedScroll\": 85640, \"hash\": \"#2-svagata\", \"entryId\": \"2-jff32j\", \"scrollRestoration\": \"auto\"}], \"maxDisplacement\": 0}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "s37_close_toc_keeps_place: backdrop {\"loadedAndHydrated\": {\"scroll\": 84360, \"entryId\": \"2-qqwtn9\", \"scrollRestoration\": \"auto\"}, \"before\": 85640, \"opened\": 85640, \"closed\": 85640, \"touched\": 85640, \"later\": 85640, \"pops\": [{\"scroll\": 85640, \"savedScroll\": 85640, \"hash\": \"#2-svagata\", \"entryId\": \"2-qqwtn9\", \"scrollRestoration\": \"auto\"}], \"maxDisplacement\": 0}"
+    },
+    {
+     "suite": "s37",
+     "dev": "pixel7",
+     "status": "FAIL",
+     "name": "s37_reload_keeps_place: reading 4.6 {\"before\": 85640, \"restored\": 85640, \"afterContentsOpened\": 85640, \"maxDisplacement\": 0, \"beforeFooter\": \"Глава 4.6\", \"footer\": \"Глава 4.6\", \"state\": {\"url\": \"/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata\", \"menu\": true, \"lit\": [\"sub:arcana-procedure#2-svagata\"], \"open\": [\"arcana-procedure\", \"temple-worship\"], \"history\": 3, \"pushes\": 1}, \"scrollRestoration\": \"auto\"}"
+    }
+   ],
+   "retried": true
+  },
+  {
+   "suite": "s35",
+   "devices": [
+    "pixel7"
+   ],
+   "toc_mode": "default",
+   "rc": 0,
+   "secs": 95.6,
+   "log": "../arcana-pr2-baseline-qa/.results/s35-pixel7-default.log",
+   "checks": [
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A 17 actions: setup - the part's chapters are listed [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "INFO",
+     "name": "A 17 actions: took 4.2 s; app 17 (push 17, replace 0), Next.js 9 [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A 17 actions: app history writes <= actions [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A 17 actions: Next.js writes only for actions that change the URL (expand / collapse / highlight: none) [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A 17 actions: no history quota error [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A 17 actions: one history entry per action [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A 17 actions: every row did its action [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A 17 actions: a tap near the row's right edge does the same as one 60 px in (§11) [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A 17 actions: apId - every entry has its own id [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A 17 actions: Back x17 restores every URL and open list, marking the place [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A 17 actions: Forward x17 restores every URL and open list, marking the place [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A 17 actions: apId - Back x3 and a new step get a new id, never one used before [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "A 17 actions: one record per entry holds its scroll and view (no separate scroll store) [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "INFO",
+     "name": "B 40 actions + 20 Back in 10 s: 9.3 s from the first tap to the last Back; 80 writes (app 40, Next.js 40); peak in any 10 s window 80 [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: setup - all of it inside one 10 s window [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: at most 85 history writes in the window [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "INFO",
+     "name": "B 40 actions + 20 Back in 10 s: took 8.0 s; app 40 (push 40, replace 0), Next.js 20 [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: app history writes <= actions [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: Next.js writes only for actions that change the URL (expand / collapse / highlight: none) [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: no history quota error [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: one history entry per action [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: every row did its action [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "INFO",
+     "name": "Back burst x20: app 0, Next.js 20 [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "Back burst x20: app adds no history writes [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "Back burst x20: lands on the step 20 actions back [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "INFO",
+     "name": "Forward burst x20: app 0, Next.js 20 [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "Forward burst x20: back on the last action's step [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: no history quota error after the Back / Forward bursts [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: a row still does its action afterwards [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "C records: storage blocked - every row acts, Back restores every step, nothing throws [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "C records: reload mid-history - the step and every Back keep URL, highlight and open lists [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "C records: an entry without apId keeps its highlight and open lists from history.state [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "C records: past the 200-record cap - Back still reaches every step's URL and menu, nothing throws [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D quota refused: a refused push - the row still acts, no step added, no page error [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D quota refused: after the window, the next action adds exactly one step [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D quota refused: the refused push is never made later [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D quota refused: Back after a refused push retraces one step, to the step before [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D quota refused: a refused replace is retried for the same entry - no second entry [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D quota refused: Back after the retried replace goes one step, not two [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "D quota refused: the refusals never surface as page errors [toc=default]"
+    }
+   ]
+  },
+  {
+   "suite": "s37",
+   "devices": [
+    "iphone14"
+   ],
+   "toc_mode": null,
+   "rc": 1,
+   "secs": 74.8,
+   "log": "../arcana-pr2-baseline-qa/.results/s37-iphone14.log",
+   "checks": [
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "s37_opened_chapter_visible: expanded 4 → collapsed 5 {\"beforeChapter4\": {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 654, \"row\": {\"top\": -21.75, \"bottom\": 22.25, \"height\": 44, \"fraction\": 0}, \"first\": {\"top\": 22.25, \"bottom\": 66.25, \"height\": 44, \"fraction\": 0}}, \"afterChapter5\": {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 596, \"row\": {\"top\": 82.25, \"bottom\": 126.25, \"height\": 44, \"fraction\": 0}, \"first\": {\"top\": 126.25, \"bottom\": 170.25, \"height\": 44, \"fraction\": 0}}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: gaudiya-emblem {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 159, \"row\": {\"top\": 180.25, \"bottom\": 224.25, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 224.25, \"bottom\": 268.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: vigraha-tattva {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 645, \"row\": {\"top\": 180.25, \"bottom\": 224.25, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 224.25, \"bottom\": 268.25, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: daily-duties-brahma-muhurta {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 1165, \"row\": {\"top\": 225.09375, \"bottom\": 287.59375, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 287.59375, \"bottom\": 331.59375, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: daily-deity-schedule {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 1498, \"row\": {\"top\": 180.5625, \"bottom\": 243.0625, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 243.0625, \"bottom\": 287.0625, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: worship-sixteen-articles {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 2150, \"row\": {\"top\": 180.9375, \"bottom\": 281.9375, \"height\": 101, \"fraction\": 1}, \"first\": {\"top\": 281.9375, \"bottom\": 325.9375, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: arcana-procedure {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 2897, \"row\": {\"top\": 180.59375, \"bottom\": 224.59375, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 224.59375, \"bottom\": 268.59375, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: arcana-sri-guru {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 3411, \"row\": {\"top\": 460.59375, \"bottom\": 504.59375, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 504.59375, \"bottom\": 548.59375, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: offering-bhoga {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 3917, \"row\": {\"top\": 180.5625, \"bottom\": 224.5625, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 224.5625, \"bottom\": 268.5625, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: mantras-honouring-caranamrita {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 3917, \"row\": {\"top\": 406.53125, \"bottom\": 469.03125, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 469.03125, \"bottom\": 517, \"height\": 47.96875, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: maha-abhiseka {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 4341, \"row\": {\"top\": 238.90625, \"bottom\": 282.90625, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 282.90625, \"bottom\": 326.90625, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: prayers-forgiveness {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 4341, \"row\": {\"top\": 464.875, \"bottom\": 527.375, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 527.375, \"bottom\": 575.34375, \"height\": 47.96875, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: main-worship-sixteen-items {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 4573, \"row\": {\"top\": 345.34375, \"bottom\": 407.84375, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 407.84375, \"bottom\": 455.8125, \"height\": 47.96875, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: caturmasya-purusottama-masa {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 5156, \"row\": {\"top\": 196.28125, \"bottom\": 258.78125, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 258.78125, \"bottom\": 306.75, \"height\": 47.96875, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: guru-puja-vyasa-puja {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 5156, \"row\": {\"top\": 532.71875, \"bottom\": 595.21875, \"height\": 62.5, \"fraction\": 1}, \"first\": {\"top\": 595.21875, \"bottom\": 639.21875, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: major-festivals {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 5600, \"row\": {\"top\": 333.1875, \"bottom\": 377.1875, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 377.1875, \"bottom\": 421.1875, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: mangala-arati-songs {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 5824, \"row\": {\"top\": 419.1875, \"bottom\": 463.1875, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 463.1875, \"bottom\": 507.1875, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: gaura-arati-songs {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 5912, \"row\": {\"top\": 601.15625, \"bottom\": 645.15625, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 645.15625, \"bottom\": 689.15625, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "s37_opened_chapter_visible: kartika-bhajans {\"navTop\": 180.25, \"navBottom\": 787, \"scrollTop\": 6048, \"row\": {\"top\": 599.15625, \"bottom\": 643.15625, \"height\": 44, \"fraction\": 1}, \"first\": {\"top\": 643.15625, \"bottom\": 687.15625, \"height\": 44, \"fraction\": 1}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "s37_mark_follows_reading: 11-gandha → 14-dipa {\"state\": {\"url\": \"/arcana-paddhati/ru-iast/arcana-procedure/#11-gandha\", \"menu\": true, \"lit\": [\"sub:arcana-procedure#11-gandha\"], \"open\": [\"arcana-procedure\", \"temple-worship\"], \"history\": 3, \"pushes\": 1}, \"footer\": \"Глава 4.14\", \"geometry\": {\"top\": 110.109375, \"line\": 173.01999999999998}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "s37_mark_follows_reading: 2-svagata → 6-madhuparka {\"state\": {\"url\": \"/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata\", \"menu\": true, \"lit\": [\"sub:arcana-procedure#2-svagata\"], \"open\": [\"arcana-procedure\", \"temple-worship\"], \"history\": 3, \"pushes\": 1}, \"footer\": \"Глава 4.6\", \"geometry\": {\"top\": 110.53125, \"line\": 173.01999999999998}}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "s37_close_toc_keeps_place: x {\"loadedAndHydrated\": {\"scroll\": 87318, \"entryId\": \"2-fxuj66\", \"scrollRestoration\": \"auto\"}, \"before\": 88725, \"opened\": 88725, \"closed\": 88725, \"touched\": 88725, \"later\": 88725, \"pops\": [{\"scroll\": 87318, \"savedScroll\": 88725, \"hash\": \"#2-svagata\", \"entryId\": \"2-fxuj66\", \"scrollRestoration\": \"auto\"}], \"maxDisplacement\": 1407}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "s37_close_toc_keeps_place: backdrop {\"loadedAndHydrated\": {\"scroll\": 87318, \"entryId\": \"2-e9kxgm\", \"scrollRestoration\": \"auto\"}, \"before\": 88725, \"opened\": 88725, \"closed\": 88725, \"touched\": 88725, \"later\": 88725, \"pops\": [{\"scroll\": 87318, \"savedScroll\": 88725, \"hash\": \"#2-svagata\", \"entryId\": \"2-e9kxgm\", \"scrollRestoration\": \"auto\"}], \"maxDisplacement\": 1407}"
+    },
+    {
+     "suite": "s37",
+     "dev": "iphone14",
+     "status": "FAIL",
+     "name": "s37_reload_keeps_place: reading 4.6 {\"before\": 88725, \"restored\": 88725, \"afterContentsOpened\": 88725, \"maxDisplacement\": 0, \"beforeFooter\": \"Глава 4.6\", \"footer\": \"Глава 4.6\", \"state\": {\"url\": \"/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata\", \"menu\": true, \"lit\": [\"sub:arcana-procedure#2-svagata\"], \"open\": [\"arcana-procedure\", \"temple-worship\"], \"history\": 3, \"pushes\": 1}, \"scrollRestoration\": \"auto\"}"
+    }
+   ],
+   "retried": true
+  },
+  {
+   "suite": "s35",
+   "devices": [
+    "iphone14"
+   ],
+   "toc_mode": "default",
+   "rc": 0,
+   "secs": 98.1,
+   "log": "../arcana-pr2-baseline-qa/.results/s35-iphone14-default.log",
+   "checks": [
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A 17 actions: setup - the part's chapters are listed [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "INFO",
+     "name": "A 17 actions: took 4.2 s; app 17 (push 17, replace 0), Next.js 9 [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A 17 actions: app history writes <= actions [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A 17 actions: Next.js writes only for actions that change the URL (expand / collapse / highlight: none) [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A 17 actions: no history quota error [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A 17 actions: one history entry per action [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A 17 actions: every row did its action [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A 17 actions: a tap near the row's right edge does the same as one 60 px in (§11) [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A 17 actions: apId - every entry has its own id [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A 17 actions: Back x17 restores every URL and open list, marking the place [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A 17 actions: Forward x17 restores every URL and open list, marking the place [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A 17 actions: apId - Back x3 and a new step get a new id, never one used before [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "A 17 actions: one record per entry holds its scroll and view (no separate scroll store) [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "INFO",
+     "name": "B 40 actions + 20 Back in 10 s: 9.3 s from the first tap to the last Back; 80 writes (app 40, Next.js 40); peak in any 10 s window 80 [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: setup - all of it inside one 10 s window [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: at most 85 history writes in the window [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "INFO",
+     "name": "B 40 actions + 20 Back in 10 s: took 8.0 s; app 40 (push 40, replace 0), Next.js 20 [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: app history writes <= actions [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: Next.js writes only for actions that change the URL (expand / collapse / highlight: none) [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: no history quota error [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: one history entry per action [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: every row did its action [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "INFO",
+     "name": "Back burst x20: app 0, Next.js 20 [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "Back burst x20: app adds no history writes [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "Back burst x20: lands on the step 20 actions back [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "INFO",
+     "name": "Forward burst x20: app 0, Next.js 20 [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "Forward burst x20: back on the last action's step [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: no history quota error after the Back / Forward bursts [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "B 40 actions + 20 Back in 10 s: a row still does its action afterwards [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "C records: storage blocked - every row acts, Back restores every step, nothing throws [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "C records: reload mid-history - the step and every Back keep URL, highlight and open lists [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "C records: an entry without apId keeps its highlight and open lists from history.state [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "C records: past the 200-record cap - Back still reaches every step's URL and menu, nothing throws [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D quota refused: a refused push - the row still acts, no step added, no page error [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D quota refused: after the window, the next action adds exactly one step [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D quota refused: the refused push is never made later [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D quota refused: Back after a refused push retraces one step, to the step before [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D quota refused: a refused replace is retried for the same entry - no second entry [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D quota refused: Back after the retried replace goes one step, not two [toc=default]"
+    },
+    {
+     "suite": "s35",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "D quota refused: the refusals never surface as page errors [toc=default]"
+    }
+   ]
+  },
+  {
+   "suite": "s11",
+   "devices": [
+    "pixel7"
+   ],
+   "toc_mode": null,
+   "rc": 0,
+   "secs": 663.4,
+   "log": "../arcana-pr2-baseline-qa/.results/s11-pixel7.log",
+   "checks": [
+    {
+     "suite": "s11",
+     "dev": "pixel7",
+     "status": "PASS",
+     "name": "11 contents → subsection: heading at the top after 3 s (115/115)"
+    }
+   ]
+  },
+  {
+   "suite": "s11",
+   "devices": [
+    "iphone14"
+   ],
+   "toc_mode": null,
+   "rc": 0,
+   "secs": 753.2,
+   "log": "../arcana-pr2-baseline-qa/.results/s11-iphone14.log",
+   "checks": [
+    {
+     "suite": "s11",
+     "dev": "iphone14",
+     "status": "PASS",
+     "name": "11 contents → subsection: heading at the top after 3 s (115/115)"
+    }
+   ]
+  }
+ ],
+ "passed": 298,
+ "failed": 25,
+ "skipped": 8,
+ "known": 0,
+ "flaky": []
+}

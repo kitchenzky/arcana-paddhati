@@ -1,0 +1,36 @@
+  [PASS] data 9 parampara PNGs: no rhombi at the oval's top / bottom; every PNG has its WebP 
+== iphone14
+  [PASS] iphone14 1/2 «Содержание»: no «Показать…» switches, no language menu 
+  [PASS] iphone14 1/2 «Аа»: both switches and the language menu 
+  [PASS] iphone14 1 «Аа» switch «весь пословный перевод» opens / closes every word-by-word panel 
+  [PASS] iphone14 1 «Аа» switch «все переводы» opens / closes every translation 
+  [PASS] iphone14 3 «Обложка» in the fixed part (does not scroll), list scrolls under it from «Гуру-парампара» 
+  [PASS] iphone14 4 every row type reacts over its full strip, left and right edge (12 rows: cover, grp, sec, sub) 
+  [PASS] iphone14 5 part IV opened at the bottom → its rows in view (or the row at the top / list at its end) 
+  [PASS] iphone14 5 chapter 16 opened at the bottom → its rows in view (or the row at the top / list at its end) 
+  [FAIL] iphone14 6 tilak rows 1–12: place / mantra / gap → this row (place AND mantra banded) + exactly its spot [(1, 'no gap between place and mantra', 4.4840087890625), (2, 'no gap between place and mantra', 4.4840087890625), (3, 'no gap between place and mantra', 4.4840087890625)]
+  [PASS] iphone14 6 right of the mantra stays page (no row marked) 
+  [PASS] iphone14 6 crown: «tat prakṣālana-toyaṁ tu / vāsudevāya mūrdhani» and «oṁ vāsudevāya namaḥ» → marked + the crown (Tilak-13) 
+  [PASS] iphone14 6 crown on the picture → «oṁ vāsudevāya namaḥ» marked, in view 
+  [PASS] iphone14 7 short mantras have no «пословно» (RU+EN, 7 chapters; 182 short shown, 106 other «пословно» kept) 
+  [PASS] iphone14 7b «Арчана Шри Гуру»: one-line «… aiṁ gurave namaḥ» mantras without «пословно», «перевод» kept ({'n': 17, 'wbw': 0, 'tr': 17}) 
+  [PASS] iphone14 8 results: every occurrence of «Jayati» marked (1 results), clearly visible band 
+  [PASS] iphone14 8 opened result: «jayati» marked in the text, in view 
+  [PASS] iphone14 8 next tap only clears the mark (menu stays hidden) 
+  [PASS] iphone14 9 parampara: 9 portraits shown from WebP (PNG fallback in <picture>) 
+  [PASS] iphone14 9 a tap on the portrait still toggles the menu (§10) 
+  [PASS] iphone14 no page errors 
+  [PASS] iphone14 10 (setup) result opened with the word marked 
+  [PASS] iphone14 10 Link to the next chapter (keyboard, no tap) → mark gone on the new page 
+  [PASS] iphone14 10 after the Link: the first tap on the new page is not eaten (menu toggles) 
+  [PASS] iphone14 10 URL change by pushState (hash to elsewhere) → mark and scroll ownership gone 
+  [PASS] iphone14 10 Back from the marked result → no mark 
+  [PASS] iphone14 10 Forward → no stale mark 
+  [PASS] iphone14 15 (setup) result opened with the word marked and a #anchor in the URL 
+  [PASS] iphone14 15 same-URL history state patch → mark stays 
+  [PASS] iphone14 15 replaceState #anchor → none (same page) → mark and scroll ownership gone 
+  [PASS] iphone14 15 pushState #anchor → none → mark gone 
+  [PASS] iphone14 15 a waiting mark is dropped by an unrelated step (not painted when the place shows again) 
+  [PASS] iphone14 16 at /gaudiya-emblem/#emblem-conclusion, «географическое» (only in #emblem-gaudiya-matha) opened → marked in #emblem-gaudiya-matha, in view, URL #emblem-gaudiya-matha 
+  [PASS] iphone14 14 first tap opens every contents row type (cover=cover, chapter=sec:mangalacarana, group heading=grp:introduction, chapter with subsections=sec:gaudiya-emblem, subsection=sub:daily-duties-brahma-muhurta#morning-prayers) 
+s26: 33/34 passed

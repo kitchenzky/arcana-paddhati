@@ -1,0 +1,82 @@
+[
+  {
+    "stage": "loaded and hydrated",
+    "scrollRestoration": "auto",
+    "url": "/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata",
+    "scroll": 87318,
+    "continuous": true,
+    "menu": false,
+    "device": "iphone14",
+    "engine": "webkit"
+  },
+  {
+    "stage": "reading 4.6",
+    "scrollRestoration": "auto",
+    "url": "/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata",
+    "scroll": 88725,
+    "continuous": true,
+    "menu": false,
+    "device": "iphone14",
+    "engine": "webkit"
+  },
+  {
+    "stage": "contents open",
+    "scrollRestoration": "auto",
+    "url": "/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata",
+    "scroll": 88725,
+    "continuous": true,
+    "menu": true,
+    "device": "iphone14",
+    "engine": "webkit"
+  },
+  {
+    "stage": "contents closed after popstate",
+    "scrollRestoration": "auto",
+    "url": "/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata",
+    "scroll": 88725,
+    "continuous": true,
+    "menu": false,
+    "device": "iphone14",
+    "engine": "webkit"
+  },
+  {
+    "stage": "loaded and hydrated",
+    "scrollRestoration": "auto",
+    "url": "/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata",
+    "scroll": 84360,
+    "continuous": true,
+    "menu": false,
+    "device": "pixel7",
+    "engine": "chromium"
+  },
+  {
+    "stage": "reading 4.6",
+    "scrollRestoration": "auto",
+    "url": "/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata",
+    "scroll": 85640,
+    "continuous": true,
+    "menu": false,
+    "device": "pixel7",
+    "engine": "chromium"
+  },
+  {
+    "stage": "contents open",
+    "scrollRestoration": "auto",
+    "url": "/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata",
+    "scroll": 85640,
+    "continuous": true,
+    "menu": true,
+    "device": "pixel7",
+    "engine": "chromium"
+  },
+  {
+    "stage": "contents closed after popstate",
+    "scrollRestoration": "auto",
+    "url": "/arcana-paddhati/ru-iast/arcana-procedure/#2-svagata",
+    "scroll": 85640,
+    "continuous": true,
+    "menu": false,
+    "device": "pixel7",
+    "engine": "chromium"
+  }
+]

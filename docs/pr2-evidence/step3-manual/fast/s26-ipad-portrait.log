@@ -1,0 +1,21 @@
+  [PASS] data 9 parampara PNGs: no rhombi at the oval's top / bottom; every PNG has its WebP 
+== ipad-portrait
+  [PASS] ipad-portrait 1/2 «Содержание»: no «Показать…» switches, no language menu 
+  [PASS] ipad-portrait 1/2 «Аа»: both switches and the language menu 
+  [PASS] ipad-portrait 1 «Аа» switch «весь пословный перевод» opens / closes every word-by-word panel 
+  [PASS] ipad-portrait 1 «Аа» switch «все переводы» opens / closes every translation 
+  [PASS] ipad-portrait 3 «Обложка» in the fixed part (does not scroll), list scrolls under it from «Гуру-парампара» 
+  [PASS] ipad-portrait 4 every row type reacts over its full strip, left and right edge (12 rows: cover, grp, sec, sub) 
+  [PASS] ipad-portrait 5 part IV opened at the bottom → its rows in view (or the row at the top / list at its end) 
+  [PASS] ipad-portrait 5 chapter 16 opened at the bottom → its rows in view (or the row at the top / list at its end) 
+  [PASS] ipad-portrait 6 tilak rows 1–12: place / mantra / gap → this row (place AND mantra banded) + exactly its spot 
+  [PASS] ipad-portrait 6 right of the mantra stays page (no row marked) 
+  [PASS] ipad-portrait 6 crown: «tat prakṣālana-toyaṁ tu / vāsudevāya mūrdhani» and «oṁ vāsudevāya namaḥ» → marked + the crown (Tilak-13) 
+  [PASS] ipad-portrait 6 crown on the picture → «oṁ vāsudevāya namaḥ» marked, in view 
+  [PASS] ipad-portrait 8 results: every occurrence of «Jayati» marked (1 results), clearly visible band 
+  [PASS] ipad-portrait 8 opened result: «jayati» marked in the text, in view 
+  [PASS] ipad-portrait 8 next tap only clears the mark (menu stays hidden) 
+  [PASS] ipad-portrait 9 parampara: 9 portraits shown from WebP (PNG fallback in <picture>) 
+  [PASS] ipad-portrait 9 a tap on the portrait still toggles the menu (§10) 
+  [PASS] ipad-portrait no page errors 
+s26: 19/19 passed

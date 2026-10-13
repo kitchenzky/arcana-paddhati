@@ -1,0 +1,11 @@
+  [FAIL] pixel7 old /ru/<chapter>/ -> /ru-iast/<chapter>/ (hash kept) http://127.0.0.1:59926/arcana-paddhati/ru-iast/offering-bhoga/#x
+  [PASS] pixel7 old /ru/ home -> /ru-iast/ 
+  [PASS] pixel7 saved 'ru' migrated to 'ru-iast', start page opens it 
+  [PASS] pixel7 contents panel has NO language menu (v7.8: only in «Аа») 
+  [PASS] pixel7 Аа language menu: one Russian «Русский» 
+  [PASS] pixel7 Russian search loads search-index.ru-iast.json, has results 
+  [PASS] pixel7 no links to Cyrillic-Russian pages / files in UI 
+  [PASS] pixel7 no page errors 
+
+7/8 passed
+FAILED: ('pixel7', 'old /ru/<chapter>/ -> /ru-iast/<chapter>/ (hash kept)', False, 'http://127.0.0.1:59926/arcana-paddhati/ru-iast/offering-bhoga/#x')

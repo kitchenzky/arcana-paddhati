@@ -1,0 +1,14 @@
+  [PASS] data 1 no i18n.json record → existing localized section kept (not deleted), reported MISSING 
+  [PASS] data 1 record for another language only → lv section still kept 
+  [PASS] data 1 book without the section and no record → stays without it (English fallback) 
+  [PASS] data 1 record present → the translated section put in the English order 
+  [PASS] data 2 apply_sections without records: every book file keeps its localized section (+ its mood blocks) 
+  [PASS] data 3 write_atomic: a failing write leaves the old file whole and no temp file 
+  [PASS] data 3 write_atomic: a good write replaces the file 
+  [PASS] data 3 write_atomic: a locked file (PermissionError on os.replace) is retried and then saved 
+  [PASS] data 3 write_atomic: still locked after the retries → AtomicWriteError naming the file, old file whole, no temp 
+  [PASS] data 3 i18n_sections / night_sync write book, i18n.json and moods.json only through write_atomic 
+  [PASS] data 4 PDF / EPUB «Версия от» = the build date (not the last data commit) 
+  [PASS] data 4 «Arghya-pātra» (never «Argya-pātra») in every book 
+  [PASS] data 4 «Pādya-pātra» (never «Padya-pātra») in every book 
+s27: 13/13 passed

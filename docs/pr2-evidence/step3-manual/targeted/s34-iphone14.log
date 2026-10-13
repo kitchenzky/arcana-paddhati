@@ -1,0 +1,4 @@
+  [PASS] iphone14/white: cover scroll, deep link, reload, next chapter, Back/Forward, offline
+  [PASS] iphone14/sepia: cover scroll, deep link, reload, next chapter, Back/Forward, offline
+  [PASS] iphone14/night: cover scroll, deep link, reload, next chapter, Back/Forward, offline
+3/3 passed

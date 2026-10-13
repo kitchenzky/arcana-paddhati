@@ -1,0 +1,6 @@
+  [PASS] chromium controller (core installed) within 90 s 0.6s
+  cache entries at takeover: {'n': 311, 'comp': False}
+  [PASS] chromium offline right after core: all 26 ru-iast pages open []
+  [PASS] chromium offline in-app «След. глава» 9926/arcana-paddhati/ru-iast/daily-deity-schedule/
+
+3/3 passed

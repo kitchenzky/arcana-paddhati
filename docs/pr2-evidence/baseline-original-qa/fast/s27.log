@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/private/tmp/arcana-pr2-baseline-qa/suites/s27_night_sync_safety.py", line 24, in <module>
+    import i18n_sections as I  # noqa: E402
+ModuleNotFoundError: No module named 'i18n_sections'

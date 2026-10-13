@@ -1,0 +1,38 @@
+lint_content: data/ + out/
+  [PASS] data L1 Dievību pāris: locās tikai otrā daļa (nav «Радхе-/Радху-/Радхи-/Радхой-» pirms pāra otrās daļas)
+  [PASS] data L2 «Шри Шри» pirms Dievību pāra autora tekstā (ne «Шри-Шри», ne viens «Шри»)
+  [PASS] data L3 nav «Радха-Говинда» autora tekstā (izņēmums: pantu tulkojumi, citāti)
+  [PASS] data L4 Dievību pāris bez «-джи/-джиу»
+  [PASS] data L5 bījas: aiṁ/klīṁ/śrīṁ (nav aing/klīng/śrīng); pa vārdam «— биджа-мантра» (katrā valodā savs termins) — 954 bīju glosas
+  [PASS] data L6 katram pantam (verse) un mantrai (⟦… namaḥ⟧ tabulās) ir «пословно» (wbw) — 626 panti+mantras RU; citās valodās bez wbw (info, nebloķē): book.de.json 125/271, book.es.json 125/271, book.fr.json 125/271, book.hu.json 125/271, book.it.json 125/271, book.json 125/271, book.lt.json 125/271, book.lv.json 125/271, book.pt.json 125/271, book.uk.json 125/271
+  [PASS] data L7 nav neapstrādātu marķieru ⟦ ⟧ (dati sabalansēti; uzbūvētajās lapās nav redzami) — 302 HTML lapas pārbaudītas
+  [PASS] data L8 nav bengāļu/devanāgarī rakstzīmju (sanskrits — IAST)
+  [PASS] data L9 nav «…» nogriezumu UI virsrakstos (daļas, nodaļas, apakšnodaļas, starpvirsraksti, ui.*.json)
+  [PASS] data L10 «Начало главы» neeksistē (ui.*.json, dati, uzbūvētās lapas)
+  [PASS] data L11 «Гурудев» locījumi autora tekstā: -, -а, -у, -ом, -е (nav «Гурудевы/Гурудевой»)
+  [PASS] data L12 katram Gurudeva citātam (mood) ir avots: lekcija, datums, №, taimkods, transkripta saite — 96 citāti
+  [WARN] data L12 izņēmums (Daršana ieraksts (Шри Прем Прайоджана Прабху, Vrindāvana, 25.11.2025) — konfidenciāls (Ста) :: book.ru-iast.json :: offering-bhoga :: trūkst: nr, transcript_url
+  [WARN] data L12 izņēmums (Daršana ieraksts (Шри Прем Прайоджана Прабху, Vrindāvana, 25.11.2025) — konfidenciāls (Ста) :: book.ru-iast.json :: bhoga-procedure :: trūkst: nr, transcript_url
+  [WARN] data L12 izņēmums (Lekcija № 10011 (12.04.2026) ПОИСКОВИК indeksā bez laika zīmēm (ts_quality=none, start_ts ) :: book.ru-iast.json :: vyasa-puja-meaning :: trūkst: timecode
+  [WARN] data L12 izņēmums (Daršana ieraksts (Шри Прем Прайоджана Прабху, Vrindāvana, 25.11.2025) — konfidenciāls (Ста) :: book.ru.json :: offering-bhoga :: trūkst: nr, transcript_url
+  [WARN] data L12 izņēmums (Daršana ieraksts (Шри Прем Прайоджана Прабху, Vrindāvana, 25.11.2025) — konfidenciāls (Ста) :: book.ru.json :: bhoga-procedure :: trūkst: nr, transcript_url
+  [WARN] data L12 izņēmums (Lekcija № 10011 (12.04.2026) ПОИСКОВИК indeksā bez laika zīmēm (ts_quality=none, start_ts ) :: book.ru.json :: vyasa-puja-meaning :: trūkst: timecode
+  [PASS] data L13 «Ещё цитаты»: kopā ar galveno ne vairāk par 20
+  [PASS] data L14 galvenie Gurudeva citāti nav mainīti/izņemti (salīdzinājums ar qa/snapshots/main_quotes.json; pievienot drīkst) — 48 citāti momentuzņēmumā
+  [PASS] data L15 grāmatas struktūra: nosaukumā nav «Temple Manual»; daļas I Храмовый / II Домашний / III Проповеднические центры
+  [PASS] data L16 lietotnē nav audio failu un nav «Библиотека» failu (public/, out/)
+  [PASS] data L18 sanskrits ar IAST diakritiku (nav ASCII aizvietojumu: ksira-snaniyam, krsna, namah …) — 5129 sanskrita fragmenti
+  [PASS] data L19 RU grāmatās nav angļu teksta (izņemot Gurudeva vārdus oriģinālā un avotu nosaukumus)
+  [PASS] data L21 parampara: Śrī Pañca-tattva first, then 8 gurus in order, exact captions, no Gour Govinda Svāmī; every figure fully inside its oval — 9 portraits re-verified
+  [PASS] data L22 ārati songs: maṅgala-ārati (5) and gaura-ārati (2) in Part IV with IAST, word-by-word and translation
+  [PASS] data L23 RU name «Чайтанья Академия» (never «Академия Чайтаньи») in books, generators and RU transcripts — 58 files
+  [PASS] data L24 songs: RU heading → one author line → ≥1 verse (IAST); no source lines, no repeated title — 120 songs in 12 books
+  [PASS] data L25 Kārtika bhajans: after gaura-ārati in Part IV, 3 songs (8/9/13 verses), IAST diacritics, no sources — chapter checked in 12 books; part list in 12 books
+  [PASS] data L26 ch3 + ch14 list = figure Parafernalia.png in every language: numbers 1–18 one row each, in order, row names = figure objects; ch3 unnumbered row = pādya/arghya/ācamana — 24 lists (ch3 + ch14 × 12 book files) against 18 figure objects
+  [PASS] data L27 Sanskrit identical in every language: each `sanskrit` field of ru-iast/lv/de/fr/es/it/uk/hu/pt/lt = book.json (byte-identical) — 271 sanskrit fields × 10 books (ru-iast + translated)
+  [PASS] data L28 IAST anusvāra is «ṁ» everywhere — no «ṃ/Ṃ» in books, ui files, translation caches, generator i18n.json — 32 files (decoded JSON, NFC)
+  [PASS] data L29 RU text: jñ = «гья» (Прагьяна, гьяна), not «джн(я/а)»; Sanskrit with diacritics «джн̃»/«jñ» unchanged — 2 RU books + 13 generator files
+  [PASS] data L17 atgriešanās punkts: git tags pirms-interfeisa-2026-10-05 eksistē
+  [PASS] data L20 zem .git/refs nav OneDrive desktop.ini (citādi git fetch/pull lūzt)
+
+29/29 passed

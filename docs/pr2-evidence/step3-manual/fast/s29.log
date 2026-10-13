@@ -1,0 +1,9 @@
+  [PASS] data a no «tulasī-pātra…» / «туласӣ-па̄тра…» in books, caches (0), i18n/glossaries 
+  [PASS] data b 12-puspa sanskrit = «etat tulasī-patram / …» identical in every IAST book 
+  [PASS] data b 12-puspa RU Cyrillic «туласӣ-патрам» 
+  [PASS] data b 12-puspa wbw (RU, RU-IAST) gloss «tulasī-patram» / «туласӣ-патрам» 
+  [PASS] data c 16-items label «etat tulasī-patram / …» in every book 
+  [PASS] data d guard: vessels untouched («arghya-pātra», «pādya-pātra» present in book.json) 
+  [PASS] data e no «tulasī-patrāni» / «туласӣ-патра̄ни» without ṇ (ṇatva) in books, caches, i18n/glossaries 
+  [PASS] data e 16-items label «… / etāni tulasī-patrāṇi⟧» (RU «туласӣ-патра̄н̣и») in every book 
+s29: 8/8 passed

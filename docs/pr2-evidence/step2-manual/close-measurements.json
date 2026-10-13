@@ -1,0 +1,98 @@
+[
+  {
+    "loadedAndHydrated": {
+      "scroll": 87318,
+      "entryId": "2-l96wpw",
+      "scrollRestoration": "manual"
+    },
+    "before": 88725,
+    "opened": 88725,
+    "closed": 88725,
+    "touched": 88725,
+    "later": 88725,
+    "pops": [
+      {
+        "scroll": 88725,
+        "savedScroll": 88725,
+        "hash": "#2-svagata",
+        "entryId": "2-l96wpw",
+        "scrollRestoration": "manual"
+      }
+    ],
+    "maxDisplacement": 0,
+    "device": "iphone14",
+    "close": "x"
+  },
+  {
+    "loadedAndHydrated": {
+      "scroll": 87318,
+      "entryId": "2-zwvh3i",
+      "scrollRestoration": "manual"
+    },
+    "before": 88725,
+    "opened": 88725,
+    "closed": 88725,
+    "touched": 88725,
+    "later": 88725,
+    "pops": [
+      {
+        "scroll": 88725,
+        "savedScroll": 88725,
+        "hash": "#2-svagata",
+        "entryId": "2-zwvh3i",
+        "scrollRestoration": "manual"
+      }
+    ],
+    "maxDisplacement": 0,
+    "device": "iphone14",
+    "close": "backdrop"
+  },
+  {
+    "loadedAndHydrated": {
+      "scroll": 84360,
+      "entryId": "2-fvg8e0",
+      "scrollRestoration": "manual"
+    },
+    "before": 85640,
+    "opened": 85640,
+    "closed": 85640,
+    "touched": 85640,
+    "later": 85640,
+    "pops": [
+      {
+        "scroll": 85640,
+        "savedScroll": 85640,
+        "hash": "#2-svagata",
+        "entryId": "2-fvg8e0",
+        "scrollRestoration": "manual"
+      }
+    ],
+    "maxDisplacement": 0,
+    "device": "pixel7",
+    "close": "x"
+  },
+  {
+    "loadedAndHydrated": {
+      "scroll": 84360,
+      "entryId": "2-fedkaj",
+      "scrollRestoration": "manual"
+    },
+    "before": 85640,
+    "opened": 85640,
+    "closed": 85640,
+    "touched": 85640,
+    "later": 85640,
+    "pops": [
+      {
+        "scroll": 85640,
+        "savedScroll": 85640,
+        "hash": "#2-svagata",
+        "entryId": "2-fedkaj",
+        "scrollRestoration": "manual"
+      }
+    ],
+    "maxDisplacement": 0,
+    "device": "pixel7",
+    "close": "backdrop"
+  }
+]

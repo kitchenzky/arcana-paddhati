@@ -1,0 +1,17 @@
+== iphone14
+  [PASS] iphone14 a contents: Обложка → Гуру-парампара → Мангалачарана → ВВЕДЕНИЕ 
+  [PASS] iphone14 a Śrī Pañca-tattva page first (Satkirti 07.10 13:35) 
+  [PASS] iphone14 a 8 parampara pages in order with exact captions 
+  [PASS] iphone14 a no Gour Govinda Svāmī 
+  [PASS] iphone14 a no visible heading / number on the portrait pages 
+  [PASS] iphone14 a «След. глава ›» after the parampara = Мангалачарана 
+  [PASS] iphone14 b every portrait scaled as a whole (object-fit contain, aspect kept, no clip) 
+  [PASS] iphone14 b alt = caption 
+  [PASS] iphone14 b no horizontal page scroll 
+  [PASS] iphone14 b portrait + caption on one screen, inside the screen (each guru) 
+  [PASS] iphone14 a EN captions exact 
+  [PASS] iphone14 c mangala-arati-songs: 5 songs, IAST, every verse with «пословно» + «перевод» 
+  [PASS] iphone14 c gaura-arati-songs: 2 songs, IAST, every verse with «пословно» + «перевод» 
+  [PASS] iphone14 c kartika-bhajans: 3 songs, IAST, every verse with «пословно» + «перевод» 
+  [PASS] iphone14 no page errors 
+15/15 passed

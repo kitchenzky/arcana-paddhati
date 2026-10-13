@@ -1,0 +1,42 @@
+QA full: 14 darbi, 6 paralēli, serveris http://127.0.0.1:52580/arcana-paddhati (out/)
+  OK   s25    pixel7                         39 pass   0 fail      44s
+  OK   s03    pixel7                         53 pass   0 fail      46s
+  OK   s25    iphone14                       39 pass   0 fail      48s
+  OK   s03    iphone14                       52 pass   0 fail      49s
+  FAIL s33    pixel7                          0 pass   7 fail      29s
+  FAIL s33    iphone14                        0 pass   7 fail      33s
+  OK   s34    pixel7                          3 pass   0 fail      59s
+  OK   s34    iphone14                        3 pass   0 fail      62s
+  OK   s35    pixel7                         35 pass   0 fail      95s
+  OK   s37    pixel7                         24 pass   0 fail      60s
+  OK   s37    iphone14                       24 pass   0 fail      64s
+  OK   s35    iphone14                       35 pass   0 fail      99s
+  OK   s11    pixel7                          1 pass   0 fail     619s
+  OK   s11    iphone14                        1 pass   0 fail     685s
+  atkārtoju 2 kritušos darbus vienu reizi …
+  FAIL s33    pixel7                       (atkārtoti)   7 fail
+  FAIL s33    iphone14                     (atkārtoti)   7 fail
+
+QA full: 309 pass, 14 fail, 8 skip, 12.0 min
+  SKIP s03 pixel7 (b) extra predecessor before the subsection jump [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 pixel7 (b) extra predecessor between chapter opening and group action [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 pixel7 (b) extra predecessor between group toggle and Contents opening [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 pixel7 (b) extra predecessor before Contents as opened [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 iphone14 (b) extra predecessor before the subsection jump [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 iphone14 (b) extra predecessor between chapter opening and group action [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 iphone14 (b) extra predecessor between group toggle and Contents opening [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  SKIP s03 iphone14 (b) extra predecessor before Contents as opened [toc=default] — Contents records opening, toggling and jumping actions; the mark follows the reading place, and each real predecessor is asserted above.
+  FAIL s33 pixel7 two/white:
+  FAIL s33 pixel7 one/white:
+  FAIL s33 pixel7 two/sepia:
+  FAIL s33 pixel7 one/sepia:
+  FAIL s33 pixel7 two/night:
+  FAIL s33 pixel7 one/night:
+  FAIL s33 pixel7 default/white:
+  FAIL s33 iphone14 two/white:
+  FAIL s33 iphone14 one/white:
+  FAIL s33 iphone14 two/sepia:
+  FAIL s33 iphone14 one/sepia:
+  FAIL s33 iphone14 two/night:
+  FAIL s33 iphone14 one/night:
+  FAIL s33 iphone14 default/white:

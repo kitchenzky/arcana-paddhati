@@ -1,0 +1,8 @@
+3 pages
+iphone14
+  [PASS] iphone14 §8 тап «транскрипт» в окне «Настроение» открывает транскрипт в приложении (ru-iast/vigraha-tattva) 
+  [PASS] iphone14 §8 тап «транскрипт» в окне «Настроение» открывает транскрипт в приложении (ru-iast/daily-duties-brahma-muhurta) 
+  [PASS] iphone14 §8 тап «транскрипт» в окне «Настроение» открывает транскрипт в приложении (ru-iast/daily-deity-schedule) 
+  [PASS] iphone14 §8 тап без click (браузер «съел» click) всё равно открывает транскрипт 
+
+4/4 passed

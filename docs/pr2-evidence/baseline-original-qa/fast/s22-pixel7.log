@@ -1,0 +1,17 @@
+== pixel7
+  [PASS] pixel7 a contents: Обложка → Гуру-парампара → Мангалачарана → ВВЕДЕНИЕ 
+  [PASS] pixel7 a Śrī Pañca-tattva page first (Satkirti 07.10 13:35) 
+  [PASS] pixel7 a 8 parampara pages in order with exact captions 
+  [PASS] pixel7 a no Gour Govinda Svāmī 
+  [PASS] pixel7 a no visible heading / number on the portrait pages 
+  [PASS] pixel7 a «След. глава ›» after the parampara = Мангалачарана 
+  [PASS] pixel7 b every portrait scaled as a whole (object-fit contain, aspect kept, no clip) 
+  [PASS] pixel7 b alt = caption 
+  [PASS] pixel7 b no horizontal page scroll 
+  [PASS] pixel7 b portrait + caption on one screen, inside the screen (each guru) 
+  [PASS] pixel7 a EN captions exact 
+  [PASS] pixel7 c mangala-arati-songs: 5 songs, IAST, every verse with «пословно» + «перевод» 
+  [PASS] pixel7 c gaura-arati-songs: 2 songs, IAST, every verse with «пословно» + «перевод» 
+  [PASS] pixel7 c kartika-bhajans: 3 songs, IAST, every verse with «пословно» + «перевод» 
+  [PASS] pixel7 no page errors 
+15/15 passed

@@ -1,0 +1,71 @@
+iphone14
+  [PASS] iphone14 A open «Содержание» 
+  [PASS] iphone14 A fresh contents: one row lit = current chapter, in view, beige band 
+  [PASS] iphone14 C no «Начало главы» row (open chapter list) 
+  [PASS] iphone14 C chapter list starts with subsection «1.1.» 
+  [PASS] iphone14 D «Введение» is a group heading without number 
+  [PASS] iphone14 D first tap on «Введение» expands without moving the reader's mark 
+  [PASS] iphone14 D one tap «Введение» -> Эмблема / Виграха-таттва, no numbers 
+  [PASS] iphone14 A expanding «Введение» keeps one reading-place mark, in view, with its colours 
+  [PASS] iphone14 D second tap on «Введение» collapses it 
+  [PASS] iphone14 A collapsing an unrelated group keeps the reading-place mark 
+  [PASS] iphone14 A first tap «Виграха-таттва» opens its top and subsection list 
+  [PASS] iphone14 A chapter collapses without navigation or losing its mark, then reopens on one tap 
+  [PASS] iphone14 D subsection numbering inside the Introduction: «10. Тота Гопинатх…» 
+  [PASS] iphone14 A first tap on «Тота Гопинатх» opens it and closes Contents 
+  [PASS] iphone14 A one tap opens «Тота Гопинатх» at its subsection 
+  [PASS] iphone14 A ‹ Назад -> preceding Contents action, reading place marked and in view 
+  [PASS] iphone14 A Back step 2 -> chapter collapsed, same URL and open lists 
+  [PASS] iphone14 A Back step 3 -> chapter open at its top, same URL and open lists 
+  [PASS] iphone14 A Back step 4 -> reader's original branch collapsed, Introduction open 
+  [PASS] iphone14 A Back step 5 -> original chapter, Introduction and Temple Worship open 
+  [PASS] iphone14 A Back step 6 -> original chapter, Introduction collapsed 
+  [PASS] iphone14 A Back step 7 -> original chapter, Introduction open 
+  [PASS] iphone14 A Back step 8 -> Contents as opened 
+  [PASS] iphone14 A Back step 9 -> menu closed, the page where the reader was 
+  [PASS] iphone14 A path contains exactly nine real action entries 
+  [PASS] iphone14 B «Вперёд» is a live button (not disabled) 
+  [PASS] iphone14 B «Вперёд» -> Contents as opened, original reading place marked 
+  [PASS] iphone14 B forward steps retrace every URL and open list, marking the reading place 
+  [PASS] iphone14 B forward -> «Тота Гопинатх» page again 
+  [PASS] iphone14 A contents on Тота Гопинатх page: that subsection lit by default 
+  [PASS] iphone14 A tap «Храмовый стандарт» keeps the reading-place mark (only it) 
+  [PASS] iphone14 H part title «Праздники, обеты и песни арати» 
+  [PASS] iphone14 A tap «Праздники, обеты и песни арати» keeps the reading-place mark and reveals the group 
+  [PASS] iphone14 A tap «Стандарт для проповеднических центров» keeps the reading-place mark 
+  [PASS] iphone14 D Part I starts with chapter «1.» 
+  [PASS] iphone14 B bars' text is not selectable (no look-up bar on Android) 
+  [PASS] iphone14 B «Вперёд» with no step: stays, says ««Вперёд» — после «Назад»» 
+  [PASS] iphone14 B the note sits above the bottom bar, on screen 
+  [PASS] iphone14 D «След. глава ›» after offering-bhoga -> 7. Мантры почитания чаранамриты 
+  [PASS] iphone14 B ‹ Назад -> previous chapter 
+  [PASS] iphone14 B «Вперёд ›» -> next chapter again (Android case) 
+  [PASS] iphone14 D Introduction page lists its 2 chapters (v7.1) 
+  [PASS] iphone14 D Introduction «След. глава ›» -> «Эмблема Гаудия-матха» (no number) 
+  [PASS] iphone14 D Мангалачарана «След. глава ›» -> «Введение» (v7.1) 
+  [PASS] iphone14 D Виграха-таттва page: no chapter number in the title 
+  [PASS] iphone14 D status line names the chapter (no «Глава N») 
+  [PASS] iphone14 D status line «Глава 2 · …» 
+  [PASS] iphone14 G title only «Мангалачарана», no subtitle 
+  [PASS] iphone14 G v7.1 no headings at all on the page 
+  [PASS] iphone14 G no explanatory headings (прославление / покровитель / призывающие) 
+  [PASS] iphone14 G every verse has «пословно» 
+  [PASS] iphone14 E emblem: tap picture part 3 -> part + row highlighted, list scrolled to the row 
+  [PASS] iphone14 E emblem: tap picture part 2.1 -> part + row highlighted, list scrolled to the row 
+  [PASS] iphone14 E emblem: tap picture part 10 -> part + row highlighted, list scrolled to the row 
+  [PASS] iphone14 E emblem: tap picture part 11 -> part + row highlighted, list scrolled to the row 
+  [PASS] iphone14 E emblem: tap picture part 12 -> part + row highlighted, list scrolled to the row 
+  [PASS] iphone14 E emblem: tap a list row -> row band + picture part highlighted 
+  [PASS] iphone14 E tilak: tap picture part 5 -> part + row highlighted, list scrolled to the row 
+  [PASS] iphone14 E tilak: tap a list row -> row band + picture part highlighted 
+  [PASS] iphone14 E paraphernalia: tap picture part 7 -> part + row highlighted, list scrolled to the row 
+  [PASS] iphone14 E paraphernalia: tap a list row -> row band + picture part highlighted 
+  [PASS] iphone14 F cover fully on screen 
+  [PASS] iphone14 H English part title «Festivals, Vows and Ārati Songs» 
+  [PASS] iphone14 D English: «Introduction» group heading 
+  [PASS] iphone14 I ru-iast: every verse but the short mantras has «пословно» (228/255; 228/255 expected — 43 short mantras) 
+  [PASS] iphone14 I ru: every verse but the short mantras has «пословно» (228/255; 228/255 expected — 43 short mantras) 
+  [PASS] iphone14 no requests to third-party hosts 
+  [PASS] iphone14 no page errors 
+
+68/68 passed

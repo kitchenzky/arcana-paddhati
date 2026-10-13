@@ -1,0 +1,9 @@
+  [PASS] data a no «tulasī-pātra…» / «туласӣ-па̄тра…» in books, caches (0), i18n/glossaries 
+  [PASS] data b 12-puspa sanskrit = «etat tulasī-patram / …» identical in every IAST book 
+  [PASS] data b 12-puspa RU Cyrillic «туласӣ-патрам» 
+  [PASS] data b 12-puspa wbw (RU, RU-IAST) gloss «tulasī-patram» / «туласӣ-патрам» 
+  [PASS] data c 16-items label «etat tulasī-patram / …» in every book 
+Traceback (most recent call last):
+  File "/private/tmp/arcana-pr2-baseline-qa/suites/s29_tulasi_patram_0910.py", line 97, in <module>
+    en = TEXT[os.path.join(DATA, "book.json")]
+KeyError: '/private/tmp/data/book.json'
